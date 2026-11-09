@@ -1,0 +1,8 @@
+{
+  "epoch": 194,
+  "accuracy": 0.9704,
+  "source": "model",
+  "parameters": 4480474,
+  "synthetic": false,
+  "selection_metric": "validation_accuracy"
+}

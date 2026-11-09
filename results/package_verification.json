@@ -1,0 +1,130 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "python": "3.12.10",
+  "torch": "2.7.1+cu128",
+  "exact_copy_hash_checks": 30,
+  "models": [
+    {
+      "config": "base400.json",
+      "parameters": 4480474,
+      "stage_blocks": [
+        4,
+        4,
+        4
+      ],
+      "stage_widths": [
+        56,
+        112,
+        224
+      ],
+      "kernel_sizes": [
+        3,
+        3,
+        3
+      ],
+      "output_shape": [
+        2,
+        10
+      ],
+      "finite": true
+    },
+    {
+      "config": "mild60.json",
+      "parameters": 4480474,
+      "stage_blocks": [
+        4,
+        4,
+        4
+      ],
+      "stage_widths": [
+        56,
+        112,
+        224
+      ],
+      "kernel_sizes": [
+        3,
+        3,
+        3
+      ],
+      "output_shape": [
+        2,
+        10
+      ],
+      "finite": true
+    },
+    {
+      "config": "robust300.json",
+      "parameters": 4948626,
+      "stage_blocks": [
+        4,
+        4,
+        4
+      ],
+      "stage_widths": [
+        58,
+        116,
+        232
+      ],
+      "kernel_sizes": [
+        3,
+        3,
+        3
+      ],
+      "output_shape": [
+        2,
+        10
+      ],
+      "finite": true
+    },
+    {
+      "config": "robust60.json",
+      "parameters": 4948626,
+      "stage_blocks": [
+        4,
+        4,
+        4
+      ],
+      "stage_widths": [
+        58,
+        116,
+        232
+      ],
+      "kernel_sizes": [
+        3,
+        3,
+        3
+      ],
+      "output_shape": [
+        2,
+        10
+      ],
+      "finite": true
+    },
+    {
+      "config": "robust_refine50.json",
+      "parameters": 4948626,
+      "stage_blocks": [
+        4,
+        4,
+        4
+      ],
+      "stage_widths": [
+        58,
+        116,
+        232
+      ],
+      "kernel_sizes": [
+        3,
+        3,
+        3
+      ],
+      "output_shape": [
+        2,
+        10
+      ],
+      "finite": true
+    }
+  ],
+  "scope": "Source hashes, configs, parameter counts, synthetic finite forward, real-log completeness. No training, accuracy evaluation or test inference."
+}

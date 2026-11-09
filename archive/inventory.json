@@ -1,0 +1,3080 @@
+{
+  "schema_version": 1,
+  "scope": "All79 completed runs: full portable config values, original aggregate logs, corresponding source variant snapshots. No data/weights or scheduler queue launches.",
+  "count": 79,
+  "completed_epochs": 7810,
+  "source_files": [
+    {
+      "original_project_relative": "research/architecture_completion_v1/src/dlend/__init__.py",
+      "published_path": "archive/source_variants/architecture_completion_v1/src/dlend/__init__.py",
+      "sha256": "0bdc97224eec3e25818a4e319a485f3ffced3bec232797739396bfea22183f39",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/architecture_completion_v1/src/dlend/data.py",
+      "published_path": "archive/source_variants/architecture_completion_v1/src/dlend/data.py",
+      "sha256": "4ecfbc094861220ae08776f5fb23d9660d4c5491986c23012850a568f00d0d94",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/architecture_completion_v1/src/dlend/evaluate.py",
+      "published_path": "archive/source_variants/architecture_completion_v1/src/dlend/evaluate.py",
+      "sha256": "0493699141b59edfb8b677dd8a680744bf5cd88373e0294f2422a146f7cfa538",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/architecture_completion_v1/src/dlend/models.py",
+      "published_path": "archive/source_variants/architecture_completion_v1/src/dlend/models.py",
+      "sha256": "49e48defb2b29e8865ce54757b4006f04d82aa7a5b7bef5976de66e8e56be982",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/architecture_completion_v1/src/dlend/optim.py",
+      "published_path": "archive/source_variants/architecture_completion_v1/src/dlend/optim.py",
+      "sha256": "d80d9fb6c4cabe130c1615c5d99eb357b76163fe579f622232a7f700f8dc39ff",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/architecture_completion_v1/src/dlend/predict.py",
+      "published_path": "archive/source_variants/architecture_completion_v1/src/dlend/predict.py",
+      "sha256": "87328416f9c44dbccaa98e2fb0207724e3158e03115c1f356b34c629015833ad",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/architecture_completion_v1/src/dlend/train.py",
+      "published_path": "archive/source_variants/architecture_completion_v1/src/dlend/train.py",
+      "sha256": "d9d00471fb6fd21a6947d69dc45fa84105c4cbdf8d892168d49357309d39304c",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/architecture_completion_v1/src/dlend/utils.py",
+      "published_path": "archive/source_variants/architecture_completion_v1/src/dlend/utils.py",
+      "sha256": "0e986a11e9ffb22fef167d6d77a7858ac93ae0fa65b7e620a424f947ca4bd4e9",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/augmix_v1/src/dlend/__init__.py",
+      "published_path": "archive/source_variants/augmix_v1/src/dlend/__init__.py",
+      "sha256": "0bdc97224eec3e25818a4e319a485f3ffced3bec232797739396bfea22183f39",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/augmix_v1/src/dlend/data.py",
+      "published_path": "archive/source_variants/augmix_v1/src/dlend/data.py",
+      "sha256": "9434bb4fcefbfef515635eb3da4d93f6c75ff39afd161d8eb9b100b241758809",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/augmix_v1/src/dlend/evaluate.py",
+      "published_path": "archive/source_variants/augmix_v1/src/dlend/evaluate.py",
+      "sha256": "0493699141b59edfb8b677dd8a680744bf5cd88373e0294f2422a146f7cfa538",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/augmix_v1/src/dlend/models.py",
+      "published_path": "archive/source_variants/augmix_v1/src/dlend/models.py",
+      "sha256": "2ba894cbf0d17d1a8ae848462286cbede05657fdcdbc24f4773214e774299b48",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/augmix_v1/src/dlend/optim.py",
+      "published_path": "archive/source_variants/augmix_v1/src/dlend/optim.py",
+      "sha256": "d80d9fb6c4cabe130c1615c5d99eb357b76163fe579f622232a7f700f8dc39ff",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/augmix_v1/src/dlend/predict.py",
+      "published_path": "archive/source_variants/augmix_v1/src/dlend/predict.py",
+      "sha256": "87328416f9c44dbccaa98e2fb0207724e3158e03115c1f356b34c629015833ad",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/augmix_v1/src/dlend/train.py",
+      "published_path": "archive/source_variants/augmix_v1/src/dlend/train.py",
+      "sha256": "d9d00471fb6fd21a6947d69dc45fa84105c4cbdf8d892168d49357309d39304c",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/augmix_v1/src/dlend/utils.py",
+      "published_path": "archive/source_variants/augmix_v1/src/dlend/utils.py",
+      "sha256": "0e986a11e9ffb22fef167d6d77a7858ac93ae0fa65b7e620a424f947ca4bd4e9",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/champion_continuation_v1/src/dlend/__init__.py",
+      "published_path": "archive/source_variants/champion_continuation_v1/src/dlend/__init__.py",
+      "sha256": "0bdc97224eec3e25818a4e319a485f3ffced3bec232797739396bfea22183f39",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/champion_continuation_v1/src/dlend/data.py",
+      "published_path": "archive/source_variants/champion_continuation_v1/src/dlend/data.py",
+      "sha256": "4ecfbc094861220ae08776f5fb23d9660d4c5491986c23012850a568f00d0d94",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/champion_continuation_v1/src/dlend/evaluate.py",
+      "published_path": "archive/source_variants/champion_continuation_v1/src/dlend/evaluate.py",
+      "sha256": "0493699141b59edfb8b677dd8a680744bf5cd88373e0294f2422a146f7cfa538",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/champion_continuation_v1/src/dlend/models.py",
+      "published_path": "archive/source_variants/champion_continuation_v1/src/dlend/models.py",
+      "sha256": "2ba894cbf0d17d1a8ae848462286cbede05657fdcdbc24f4773214e774299b48",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/champion_continuation_v1/src/dlend/optim.py",
+      "published_path": "archive/source_variants/champion_continuation_v1/src/dlend/optim.py",
+      "sha256": "d80d9fb6c4cabe130c1615c5d99eb357b76163fe579f622232a7f700f8dc39ff",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/champion_continuation_v1/src/dlend/predict.py",
+      "published_path": "archive/source_variants/champion_continuation_v1/src/dlend/predict.py",
+      "sha256": "87328416f9c44dbccaa98e2fb0207724e3158e03115c1f356b34c629015833ad",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/champion_continuation_v1/src/dlend/registered_swa_warm_start.py",
+      "published_path": "archive/source_variants/champion_continuation_v1/src/dlend/registered_swa_warm_start.py",
+      "sha256": "c360357a43045c1835b5a642545ef2264639c828c640bfbbcb2674458fe0d5f2",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/champion_continuation_v1/src/dlend/train.py",
+      "published_path": "archive/source_variants/champion_continuation_v1/src/dlend/train.py",
+      "sha256": "98fad20eb790d8e9094d707efaf60dd4a73179a066356e0ee1a80d995bec3e72",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/champion_continuation_v1/src/dlend/utils.py",
+      "published_path": "archive/source_variants/champion_continuation_v1/src/dlend/utils.py",
+      "sha256": "0e986a11e9ffb22fef167d6d77a7858ac93ae0fa65b7e620a424f947ca4bd4e9",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/efficient_resnets_v1/src/dlend/__init__.py",
+      "published_path": "archive/source_variants/efficient_resnets_v1/src/dlend/__init__.py",
+      "sha256": "0bdc97224eec3e25818a4e319a485f3ffced3bec232797739396bfea22183f39",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/efficient_resnets_v1/src/dlend/data.py",
+      "published_path": "archive/source_variants/efficient_resnets_v1/src/dlend/data.py",
+      "sha256": "b193ee5a7ea8a29b5ff27bc34e1b6410b7581791aa164a0c860bc7b45390a403",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/efficient_resnets_v1/src/dlend/evaluate.py",
+      "published_path": "archive/source_variants/efficient_resnets_v1/src/dlend/evaluate.py",
+      "sha256": "0493699141b59edfb8b677dd8a680744bf5cd88373e0294f2422a146f7cfa538",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/efficient_resnets_v1/src/dlend/models.py",
+      "published_path": "archive/source_variants/efficient_resnets_v1/src/dlend/models.py",
+      "sha256": "104eb0d461adf4d7bca478ba61b4431dc6f5382494402cc7d07e2131d5deefae",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/efficient_resnets_v1/src/dlend/optim.py",
+      "published_path": "archive/source_variants/efficient_resnets_v1/src/dlend/optim.py",
+      "sha256": "4e82f21d3d1d014bdb28dde49c04d395d11ab5d610cc84314ea76b1a9606401d",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/efficient_resnets_v1/src/dlend/predict.py",
+      "published_path": "archive/source_variants/efficient_resnets_v1/src/dlend/predict.py",
+      "sha256": "bd3b4816541132323892f9735c51bf54ed970e59fe4eb59a99f08920fc23ea14",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/efficient_resnets_v1/src/dlend/train.py",
+      "published_path": "archive/source_variants/efficient_resnets_v1/src/dlend/train.py",
+      "sha256": "7761212316e5a95ae2a0acf71ad076b57a843dfa9e58a8fea937960a1b33e064",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/efficient_resnets_v1/src/dlend/utils.py",
+      "published_path": "archive/source_variants/efficient_resnets_v1/src/dlend/utils.py",
+      "sha256": "0e986a11e9ffb22fef167d6d77a7858ac93ae0fa65b7e620a424f947ca4bd4e9",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/efficient_resnets_v1/src/dlend/vendor_project1_model.py",
+      "published_path": "archive/source_variants/efficient_resnets_v1/src/dlend/vendor_project1_model.py",
+      "sha256": "e97198c621fed7912bebb039ffd564ce6c9b8a32a2bcb4254134925993f94bb6",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/four_stage_v1/src/dlend/__init__.py",
+      "published_path": "archive/source_variants/four_stage_v1/src/dlend/__init__.py",
+      "sha256": "0bdc97224eec3e25818a4e319a485f3ffced3bec232797739396bfea22183f39",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/four_stage_v1/src/dlend/data.py",
+      "published_path": "archive/source_variants/four_stage_v1/src/dlend/data.py",
+      "sha256": "4ecfbc094861220ae08776f5fb23d9660d4c5491986c23012850a568f00d0d94",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/four_stage_v1/src/dlend/evaluate.py",
+      "published_path": "archive/source_variants/four_stage_v1/src/dlend/evaluate.py",
+      "sha256": "0493699141b59edfb8b677dd8a680744bf5cd88373e0294f2422a146f7cfa538",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/four_stage_v1/src/dlend/models.py",
+      "published_path": "archive/source_variants/four_stage_v1/src/dlend/models.py",
+      "sha256": "16fabb3c61b562bd635588a94405b503242f4a756e077730079ab498d6ef38cc",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/four_stage_v1/src/dlend/optim.py",
+      "published_path": "archive/source_variants/four_stage_v1/src/dlend/optim.py",
+      "sha256": "d80d9fb6c4cabe130c1615c5d99eb357b76163fe579f622232a7f700f8dc39ff",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/four_stage_v1/src/dlend/predict.py",
+      "published_path": "archive/source_variants/four_stage_v1/src/dlend/predict.py",
+      "sha256": "87328416f9c44dbccaa98e2fb0207724e3158e03115c1f356b34c629015833ad",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/four_stage_v1/src/dlend/train.py",
+      "published_path": "archive/source_variants/four_stage_v1/src/dlend/train.py",
+      "sha256": "d9d00471fb6fd21a6947d69dc45fa84105c4cbdf8d892168d49357309d39304c",
+      "exact_copy": true
+    },
+    {
+      "original_project_relative": "research/four_stage_v1/src/dlend/utils.py",
+      "published_path": "archive/source_variants/four_stage_v1/src/dlend/utils.py",
+      "sha256": "0e986a11e9ffb22fef167d6d77a7858ac93ae0fa65b7e620a424f947ca4bd4e9",
+      "exact_copy": true
+    }
+  ],
+  "vendor_license": {
+    "file": "archive/source_variants/efficient_resnets_v1/LICENSE.vendor",
+    "sha256": "c1ae623a43452c53afe03e2e04c81aee0cb1e06e9274a06de8c60908c9d048f0",
+    "copyright": "2017 liukuang, MIT"
+  },
+  "entries": [
+    {
+      "id": "architecture_completion_v1/shortcut_kernel3_200",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4738522,
+      "config": "archive/configs/architecture_completion_v1/shortcut_kernel3_200.json",
+      "config_sha256": "7ef810bd4ffcb68729b6ab900e5dbf3575e15cbd252aa69991a2653fbb8e0165",
+      "original_config_sha256": "0ecca80a5bbb5a42f3062b5ceb75c184316fbf03d71aaae641557c917cc764f9",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "architecture_completion_v1",
+      "pythonpath": "archive/source_variants/architecture_completion_v1/src",
+      "initialization": null,
+      "original_project_run_relative": "runs/architecture_completion_v1/runs/shortcut_kernel3_200",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/architecture_completion_v1/shortcut_kernel3_200/metrics.jsonl",
+          "sha256": "8f168b6b34d7cda84a2b17aed3d648bb366db48886ce5dce2a5a564b09801b8e"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/architecture_completion_v1/shortcut_kernel3_200/best.json",
+          "sha256": "04176393576b3ff583bc34af38c0fa30050c81f473ebf0e0ea6fdc4bcd6c9f63"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/architecture_completion_v1/shortcut_kernel3_200/swa.json",
+          "sha256": "957ce1e46f0ea9eff4379fa538976b1a64309254b6fcd0ceab3d110a6f7046fb"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "architecture_completion_v1/pool_size4_200",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4487194,
+      "config": "archive/configs/architecture_completion_v1/pool_size4_200.json",
+      "config_sha256": "bf66c8332527ac2b268af75a87a12121f510ae293ad5ec7ed760fb99a31bf75d",
+      "original_config_sha256": "47bffe8f4a3fe7a6496e820f470d01c198e103c6188dfe7be503d8d9a9b90f54",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "architecture_completion_v1",
+      "pythonpath": "archive/source_variants/architecture_completion_v1/src",
+      "initialization": null,
+      "original_project_run_relative": "runs/architecture_completion_v1/runs/pool_size4_200",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/architecture_completion_v1/pool_size4_200/metrics.jsonl",
+          "sha256": "9bfddc17edb983ed59ce1892f8cc5a2593918412420b99b0d9cee3f874ec2590"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/architecture_completion_v1/pool_size4_200/best.json",
+          "sha256": "d7e48f6eafb3d92e9de9896004222a66919080fe9c4ad5d0f08b7a016e035469"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/architecture_completion_v1/pool_size4_200/swa.json",
+          "sha256": "7b2f6578026608d38b18770901cdd3e730e2e055d8425c3bf6b53110ce1e3ddc"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "architecture_confirmation_v1/kernel3_refine50",
+      "phase": "continuation",
+      "configured_epochs": 50,
+      "completed_epochs": 50,
+      "parameters": 4738522,
+      "config": "archive/configs/architecture_confirmation_v1/kernel3_refine50.json",
+      "config_sha256": "1026f7f7003db52eb4c67bdceceb6668d09ab75dde2dffb7e06d152e946b0844",
+      "original_config_sha256": "d015c1c8527d0e34fdb97c5f94e9e5724d7d726f93a75d93a78c781549e23e37",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "architecture_completion_v1",
+      "pythonpath": "archive/source_variants/architecture_completion_v1/src",
+      "initialization": {
+        "checkpoint": "runs/architecture_completion_v1/runs/shortcut_kernel3_200/best.pt",
+        "sha256": "6d57ddc63c25b41fe38d04e7d2565a59829940181ead50e7482d40949cdba2bf",
+        "epoch": 197,
+        "trained_epochs_total": 197,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/architecture_confirmation_v1/runs/kernel3_refine50",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/architecture_confirmation_v1/kernel3_refine50/metrics.jsonl",
+          "sha256": "e287d114bdbb57a9fdd1bde56c177bd1147435ab1c3ce2bb9050b796acce722f"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/architecture_confirmation_v1/kernel3_refine50/best.json",
+          "sha256": "8855465453d567795461781769b37cd4fe2ec291ccca0447e91b97143dd8a190"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/architecture_confirmation_v1/kernel3_refine50/swa.json",
+          "sha256": "c1e689c0d16de1f55d9af5e3decc4d1da32aa23e50155af12a5ba4109a5c0f74"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/strong_actual",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/strong_actual.json",
+      "config_sha256": "46e4dfc357fb96e7844ff4d520752051a0c0fbad984ac1986f407cb028f2c296",
+      "original_config_sha256": "663dddc6e242c98bbf7b671129c64c2b6356f8fc5683b7f197a5cfd43f445af6",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/strong_actual",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/strong_actual/metrics.jsonl",
+          "sha256": "9e08d1ba93fff30af4cf5e65f25f26f20716ea795f7a6bf218fabbd19724e554"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/strong_actual/best.json",
+          "sha256": "3255da11d2452101406a21a5f4c174488ba2af72d0b86bce76d2f39efbf5d9b0"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/campaign/strong_actual/swa.json",
+          "sha256": "e111ccd00ac05b333f1aeae900580d0bbc4301016554981dd287d58243a9ea52"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_base",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_base.json",
+      "config_sha256": "e3965eff8e83334341508269eff5029ad5ed33c1eddeeb0b139e7185d5a92f96",
+      "original_config_sha256": "07d76fe028323e528191e99415fa9303e7f13efc7edef038f1604c930d1133f2",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_base",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_base/metrics.jsonl",
+          "sha256": "f59de12454d720b06315074d345d82512e070e4cd2cf049e702409ac2a3570f4"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_base/best.json",
+          "sha256": "20f9a2591f7125763d3a04b6382ba55696665732d5f9f90782c3f901f34e6f1c"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_no_ema",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_no_ema.json",
+      "config_sha256": "ddc21df9819fa891b34ba2ae7c759409f840616c05469ec74c818eb5ba439da3",
+      "original_config_sha256": "499df9ab93a41713486245773710dd398d07429bd71fd53275af54b1cbcc5e84",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_no_ema",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_no_ema/metrics.jsonl",
+          "sha256": "396f6f4e3003d6fee4fd383f9085013defa1bc997531c869e3ae6a80eccc6646"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_no_ema/best.json",
+          "sha256": "91574ee2765d52237b267513c3e404ee5f321dc9f3ee84f0f2c0491d906bb374"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_no_mix",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_no_mix.json",
+      "config_sha256": "b0d5f13d4e34d9519f7217823a5cf358138ff2f90aadba5cc9b8e02458c9cad8",
+      "original_config_sha256": "6ac496073a2f03bca2a0c6d58ff47263c5fa0d736f0177b33f54b1f09510bc1e",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_no_mix",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_no_mix/metrics.jsonl",
+          "sha256": "7f9a751ce40e16f2179ab9a9f48973f537d7cf36d198b96140482d5cc5abba26"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_no_mix/best.json",
+          "sha256": "88f579971972fbd7103837599fe64d70b53d9023c999471ef8c61a5766467664"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_no_randaugment",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_no_randaugment.json",
+      "config_sha256": "4d4ce7018e1ac7dec96f89a5a12d369fb7f0e5cc4290870e8932cd54fc56c11c",
+      "original_config_sha256": "991c022c5db04ff0df83d794a4d96f4e61c3c7ceb8a6e21aaa0ec9c640afd954",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_no_randaugment",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_no_randaugment/metrics.jsonl",
+          "sha256": "3a005377a0b3e8a74acd80fbffda268df38ac5c4de24fb778bc17a630428e0b0"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_no_randaugment/best.json",
+          "sha256": "a0d1a32db7e9850fe6a2943ebf640dcb354562d9a389af392ae62e677efe60da"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_no_smoothing",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_no_smoothing.json",
+      "config_sha256": "6c58c6d77b25bf00e0b6019c68dfd4500a3e7b1588854474826c6bc6d7875d07",
+      "original_config_sha256": "d679b4080d1da704e6d060e79ea843c4f8dafb22f1bac1963b57f0fc834880d8",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_no_smoothing",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_no_smoothing/metrics.jsonl",
+          "sha256": "220fd1335264db38f2468779ed393250265da0b874a02e25dee5f61ce1861abf"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_no_smoothing/best.json",
+          "sha256": "c9c389afccd71ed0343ac9248fbd080b463da8b191ad64d3d07192252b64cb25"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_se",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4614146,
+      "config": "archive/configs/campaign/screen_se.json",
+      "config_sha256": "e495b58dafb79faf5f6503e078157f729665cd1ffaa9bc8cc39b72b4e77d59a5",
+      "original_config_sha256": "7932e550b365408ab9c3ac9834b76a27722eda1b84271496ea3e2f46da5981f2",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_se",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_se/metrics.jsonl",
+          "sha256": "28e61647081b904852f745a5a4cb3a950afbb347978fcf7e10dad659dae4c180"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_se/best.json",
+          "sha256": "cb8709e2587e7c4966946603e811b7349566fdce19eda40d5bb1243680fd4a63"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_drop_path",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_drop_path.json",
+      "config_sha256": "01fbd80f91bb1ab7b7e91defe42ff7237e34e4b54f03ba1abc9875d90351eb48",
+      "original_config_sha256": "a7c0e990d41b30ffa3b4519358cd3bdd7ba00c35113f3b7d13d9a12694d2dffa",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_drop_path",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_drop_path/metrics.jsonl",
+          "sha256": "e397ce5e4d45ebc06a22a9d6eea9387b22d15f479003f8ec6132ec0652bbf61c"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_drop_path/best.json",
+          "sha256": "995f1e5d9051a33366f03a1370e1e4ba573cfc8454bacac873dfb9e9e5f6972e"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_dropout",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_dropout.json",
+      "config_sha256": "05d5cfe015b3adbe5d2cd70051531f54bdadab71f7c800cc5f6151d40f74206d",
+      "original_config_sha256": "9222dd19c5eedcc4660e9fc3dc540829c3849aa3e097609ee5a2428de9f14cc7",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_dropout",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_dropout/metrics.jsonl",
+          "sha256": "f32091bb02bf9cc002d7e7bbc4e62b6c26fe07f4c6e0355ee175dbf491f67f6e"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_dropout/best.json",
+          "sha256": "b5be63f9268c7f1d7261342730b085e329ef66602a2a319b77ec0c897ebb0bba"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_sam",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_sam.json",
+      "config_sha256": "f5b5ec1672fdfbbaf9e00a75420973dbb06d46a9c8a481c0bcda0bdc6a0d2121",
+      "original_config_sha256": "d76ccba932661a1dd36525c01bdc8678605901e4163d2f548de0ff1305e1f21a",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_sam",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_sam/metrics.jsonl",
+          "sha256": "4853f9cb314b77d787349f45cc4436155a2158ad4b97dcd71c17e0064bb6d492"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_sam/best.json",
+          "sha256": "cb8ec570d8d1ed28e206d93aeb8f7149fecc4beda457e1405bd7c87c78a85a62"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_swa",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_swa.json",
+      "config_sha256": "cf35a33a06bb4bc49fabe5f6b5ea2d8e6b95ecbf9b3b58e9501f579d04ec30ab",
+      "original_config_sha256": "20e31df820f19d99bfb051711a54eb170defa37dd49f9df6c506d65abe3cd46f",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_swa",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_swa/metrics.jsonl",
+          "sha256": "58a0f1851a1678c211d2aa057690d33effab33d027ea7e863b0354db495edc3c"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_swa/best.json",
+          "sha256": "36dc81ae0b5519079aa2faf643994466a28c6a2a875d600a4927e80e1e420d5c"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/campaign/screen_swa/swa.json",
+          "sha256": "f81a6475de9e9e8e3048a1b0bc1f41c8d1967f7f5da69844bbbdb79d38c481b8"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_adamw",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_adamw.json",
+      "config_sha256": "9a7d66799a0dc7ac48a335dfbba8223c99dbdefa0a288bd982c93143ece58b5c",
+      "original_config_sha256": "bdcd5f65e8f491dee2042b11e242fc35e1f5abedaf55a83dbc48be9f48bf7ca7",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_adamw",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_adamw/metrics.jsonl",
+          "sha256": "be1d36370141a6f17d7223b31e0afdbd81531bd4f922d7f648f398957f15319f"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_adamw/best.json",
+          "sha256": "396dc07350474eb43bae2cd7f951f66d84cf121159f810a3495160b107798c57"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_autoaugment",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_autoaugment.json",
+      "config_sha256": "db195e407a6fa2f744beab62a1a03ba57f434b1984db45b470570c19c28cb983",
+      "original_config_sha256": "ee2a87b2944d6eca80b5d30abfce1a5c981a18712353e9ca2bc85238f33377fb",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_autoaugment",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_autoaugment/metrics.jsonl",
+          "sha256": "af319d4250887261964c2d766efafa9805bfbe14f9296bcf6fee5e68242c6808"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_autoaugment/best.json",
+          "sha256": "4d7f014e0ee690ef9aa1129baedd8872b6534efda8f0fec31fd2730346c26596"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_mixup_only",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_mixup_only.json",
+      "config_sha256": "be483839dfc029a3dc5ecd88675cbcb972d88b280285d2cb5170f0856c38b0b5",
+      "original_config_sha256": "e581dfc015072f5549d14dc1b88dadb02aa4ea8183b41541414af8dc3792b7de",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_mixup_only",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_mixup_only/metrics.jsonl",
+          "sha256": "a4cf29fa8854a27fc67add5b583c043728235d2eff907a4c09992824cbaeb8c2"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_mixup_only/best.json",
+          "sha256": "f63b5c3cbb5a29fe2b25e11da59bdc5046b86fd2cda38e00df2b5bfb62994d69"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_cutmix_only",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_cutmix_only.json",
+      "config_sha256": "ae1e061ac51c8583ce0a05dfde18bfd7e0c2802d44ecb12fba93069912346f60",
+      "original_config_sha256": "1f6e816dbaff0ed1f28d09eb5ca29f2cfcbdf0602352c22258c8673e46671c6f",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_cutmix_only",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_cutmix_only/metrics.jsonl",
+          "sha256": "ef4aa2a3c07aaff860381c1f8cfebe79d98a2eaa99e2fb5ff82b67eda460a1fc"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_cutmix_only/best.json",
+          "sha256": "47510eb5012eb5bbbc5516314e079b90514ebb6d815b93e585a40b7df31a88a4"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_cutout",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_cutout.json",
+      "config_sha256": "bf774cdc5ee025ed30d504957e5473ca58246fe914f56a11a7e93c2f53d4ef17",
+      "original_config_sha256": "d2d34a833a82afbd99cdd56573f02ba2b812350677d138a24ad73018ddef4a23",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_cutout",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_cutout/metrics.jsonl",
+          "sha256": "481374037b250d352bd4363287ba44985774d952619e4deb05dfb11e59deaddb"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_cutout/best.json",
+          "sha256": "5bb8278a11d2c579731bb4547af40fe0118d8a31287dec94d0a91839f537286e"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_random_erasing",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/screen_random_erasing.json",
+      "config_sha256": "0d2227b821b7da0681a7b2178f020390016c4b330a974343639f2b8cfc9d08ff",
+      "original_config_sha256": "aababbe4008507ac589ed115cd15f638a6c6ed421182ac5ed7ae7ca8e0d356a7",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_random_erasing",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_random_erasing/metrics.jsonl",
+          "sha256": "a94847b48852835353b33b4e9b6a7baf0ed7641e9cca54f6f3244786f5a6585a"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_random_erasing/best.json",
+          "sha256": "eb02100d2d3f186b09bd431af28944d823f10b0cd2fe0bb651ed87b27c618c29"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_wrn16",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4289754,
+      "config": "archive/configs/campaign/screen_wrn16.json",
+      "config_sha256": "91ef8f517a067534889b729f8c7dbfddf4a8c7696eeec48a3e51d43e54cc293c",
+      "original_config_sha256": "6f6571f329a4754fa853a1087d01a96b0148fe75ffd3d63735f06f3da98d9899",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_wrn16",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_wrn16/metrics.jsonl",
+          "sha256": "4c01ffd9db5fa6b61bb02c7798190c3cd1a198b1a915b45fa811edf2f9886b9f"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_wrn16/best.json",
+          "sha256": "b0becec8d47ccb5598ccabc64d2163f5f98d00543b7b7f62bff684bf22d481af"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/screen_wrn22",
+      "phase": "screen",
+      "configured_epochs": 40,
+      "completed_epochs": 40,
+      "parameters": 4298970,
+      "config": "archive/configs/campaign/screen_wrn22.json",
+      "config_sha256": "82fd923c4d60392ad7e2e69be18a6d4e18427fedd1e6fe924cc5802cbbed5b1c",
+      "original_config_sha256": "0fc889da77c97129595ec66a6badc947d5e097e61af6e9b63e5a762172eb9880",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/screen_wrn22",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/screen_wrn22/metrics.jsonl",
+          "sha256": "0ee6a71f51c86eac691775d365d7590846b25f87c82f14be1156887ad3931c11"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/screen_wrn22/best.json",
+          "sha256": "641d98f2a586ff6e098373becbf1747b273b73326010a6ed87cf5d839b46ec34"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/best_variant_full",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/best_variant_full.json",
+      "config_sha256": "55a3d4cb0386faab01cd1b394366adc4421ba8a3047049204f24185ea878399e",
+      "original_config_sha256": "eebd1c457bef65bae2cc10172a3062b13bdd4f6b07d55fb80f195986d1670a60",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/best_variant_full",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/best_variant_full/metrics.jsonl",
+          "sha256": "eda0529517aee97730ccd4826494f5767757670d1729983d716ec8f705e9d3dd"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/best_variant_full/best.json",
+          "sha256": "b4ab5d00f1770db1f0d2f1720d4246b823bb21351d610f2da9e196baf2841781"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "campaign/distillation_full",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4480474,
+      "config": "archive/configs/campaign/distillation_full.json",
+      "config_sha256": "957407874d01bfa5a10be36748d5d90da3c75848909b0f57ca3207373051372d",
+      "original_config_sha256": "81863d5506398cf807ed080c3f4c1a08942106ca7a21f73acc313866f222d9f3",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        },
+        {
+          "field": "training.teacher_checkpoint",
+          "original_project_value": "<project>/runs/strong_actual/best.pt",
+          "published_value": "runs/strong_actual/best.pt"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/campaign/runs/distillation_full",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/campaign/distillation_full/metrics.jsonl",
+          "sha256": "e81371883a2235ed53a42b6386cc5322b84a1b6979e0f012ed47b224d3db0ea0"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/campaign/distillation_full/best.json",
+          "sha256": "0dc885b61ea83e217ebb1e6276ddf9c829bd5acfb8fc21ece8fd2c1e5a6ac0a5"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/campaign/distillation_full/swa.json",
+          "sha256": "0b530209994466784e1221915076c72d712b8c86f94dc3b0f5bdaa0d023418d0"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "champion_continuation_v1/local_champion_refine50",
+      "phase": "continuation",
+      "configured_epochs": 50,
+      "completed_epochs": 50,
+      "parameters": 4480474,
+      "config": "archive/configs/champion_continuation_v1/local_champion_refine50.json",
+      "config_sha256": "5d6fae0e000270c7fa6ccecbbdfcd7484990286d410616092ea4cfd2e64a4534",
+      "original_config_sha256": "58b9b54a6b17e2ae5de05976267a77427ef7b1d7b483746fed857c93881f3f4a",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "champion_continuation_v1",
+      "pythonpath": "archive/source_variants/champion_continuation_v1/src",
+      "initialization": {
+        "checkpoint": "runs/error_followup/runs/error_control_60/best.pt",
+        "sha256": "9f0a25c0c9842b4c76fc977abf37a8b706b86f2253f00938f8e86887732e6c51",
+        "epoch": 38,
+        "trained_epochs_total": 434,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/champion_continuation_v1/runs/local_champion_refine50",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/champion_continuation_v1/local_champion_refine50/metrics.jsonl",
+          "sha256": "d229562f60236bb955891672059abc0c09aeffc0c1d36a017d3c8e32d0d0e04f"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/champion_continuation_v1/local_champion_refine50/best.json",
+          "sha256": "44dc24cf48b21c3115360e51925e4421de53b97ad5c5fd2e064875a07358f682"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/champion_continuation_v1/local_champion_refine50/swa.json",
+          "sha256": "ca7eab982f75729dbfe85c941963722d4161ccb6e12569452f13037c256434aa"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "champion_continuation_v1/robust_champion_refine50",
+      "phase": "continuation",
+      "configured_epochs": 50,
+      "completed_epochs": 50,
+      "parameters": 4948626,
+      "config": "archive/configs/champion_continuation_v1/robust_champion_refine50.json",
+      "config_sha256": "5b7150e954957538b4fb6f194b37fb825219e9f6436bd94dd5fc94f70e426a1a",
+      "original_config_sha256": "d6601652da4ed2acb690494bb693bd60f16bb40ae683847dc3a69f3462b6d327",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "champion_continuation_v1",
+      "pythonpath": "archive/source_variants/champion_continuation_v1/src",
+      "initialization": {
+        "checkpoint": "runs/robust_followup/runs/robust_control_60/swa.pt",
+        "sha256": "415cf7e902972f269dc7b385891f6443701525703df34212752a3ae959a4c9b1",
+        "epoch": 60,
+        "trained_epochs_total": 345,
+        "selected_source": "swa"
+      },
+      "original_project_run_relative": "runs/champion_continuation_v1/runs/robust_champion_refine50",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/champion_continuation_v1/robust_champion_refine50/metrics.jsonl",
+          "sha256": "0d5086456e67a84ee393797a019969dbdc63fd418ba3e91164dd40540bf21458"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/champion_continuation_v1/robust_champion_refine50/best.json",
+          "sha256": "e42bc5f6acae46d02e1061dbc1685d47cb87ee19402ce793b3019601e019ea20"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/champion_continuation_v1/robust_champion_refine50/swa.json",
+          "sha256": "ce8e2efbb5f361d92d3596cf3559a9c69e354934935def1951f6601dee387b0b"
+        }
+      },
+      "admission_note": "SWA-source continuation used historical signed registration. Use the documented portable main route for robust_refine50; archive preserves original code without private authorization files."
+    },
+    {
+      "id": "coverage_all_methods/coverage_base",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_base.json",
+      "config_sha256": "02ff9043ffca734e0fb7309310db535174cdd00a768b54d7b956db8ec27e1879",
+      "original_config_sha256": "859e396e5bbae6dbde6c97115a67d6561cf0a49cecd133f0a90dc0e2c2d35b97",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_base",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_base/metrics.jsonl",
+          "sha256": "d63be37a62ed905581f63152d68a90c53b96ec94eac6674d96a0579a492514e5"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_base/best.json",
+          "sha256": "fdd66b22a99f65e860048e75391067eaaef1abcde966f1b83e6f5703215bda67"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_blocks_front",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 2785690,
+      "config": "archive/configs/coverage_all_methods/coverage_blocks_front.json",
+      "config_sha256": "246c5dcbf9bb309794b221484695b60b0c5e66297065fdff362476cc341fb183",
+      "original_config_sha256": "7c33ded49153fca1b5e23de499fd0b85cb7d298c6447039b0b6b787b15c21e3d",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_blocks_front",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_blocks_front/metrics.jsonl",
+          "sha256": "5273f90de42b5af2c3e90da904e24f8be98cdcc6bc2a728d7a6d9ea3bc88c867"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_blocks_front/best.json",
+          "sha256": "9cbf903aeb0097f93f795c32ed484f4b8fc1f93db5cbed101bfbea3f430e3d42"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_blocks_back",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4539354,
+      "config": "archive/configs/coverage_all_methods/coverage_blocks_back.json",
+      "config_sha256": "aa3ec6f483703732912e80e49137f3728a1c43b09b0bccdcc9fe64a418081a1c",
+      "original_config_sha256": "dacecb3ccefec53d3dfa9d682ebf5b7be64e46047ea5d7b203c28edfdc006671",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_blocks_back",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_blocks_back/metrics.jsonl",
+          "sha256": "e9475ea246c39db4d5bec0787e99ba5cf92967c686eec8088e72c3f0ba8f9099"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_blocks_back/best.json",
+          "sha256": "a164c9d5a441e234df727064605211de8783d3bdabade1695906336081fcee21"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_blocks_middle",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 3972218,
+      "config": "archive/configs/coverage_all_methods/coverage_blocks_middle.json",
+      "config_sha256": "d17943405aa3040a92cb0ce16f6769e61523622dff9cc18cb23bd8a468ea25f3",
+      "original_config_sha256": "b1ff8a041908329785af945f6c22e1e4bc1bc093a596a6837ac795024f394fb4",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_blocks_middle",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_blocks_middle/metrics.jsonl",
+          "sha256": "aa7b1345d0f567c8cd3969a12ae9c6fa94f411b44b0748a64f5fc1ed62e39254"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_blocks_middle/best.json",
+          "sha256": "4027a93501f9cc68c8681443d78fc7cab5d32d3c1136f73984efce5e20bb70ba"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_channels_custom",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4127578,
+      "config": "archive/configs/coverage_all_methods/coverage_channels_custom.json",
+      "config_sha256": "cc8722d3fe30e1dbfaea103f30706da9109178a458df37bdf371aaf92e5921bb",
+      "original_config_sha256": "a6d60ad4c4198076f86f106a35acaf7574077e27ca81e667bc5204ec73ecd462",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_channels_custom",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_channels_custom/metrics.jsonl",
+          "sha256": "bd9ecfa62234eb0e7afe7e0cc656cedabf6d6e89d45add22c6c7a05661e44416"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_channels_custom/best.json",
+          "sha256": "a20f4ad59afce063efeaa41f4f9c4b93ec677288b91ffb60b0cdf465a74bccb8"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_kernel5_all",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4568646,
+      "config": "archive/configs/coverage_all_methods/coverage_kernel5_all.json",
+      "config_sha256": "a999c567d6ecc9e41a4d6288dcd0d5497c86032f37b176ca1732711b15238939",
+      "original_config_sha256": "2570ac09ebf34238611a13fe2a228dff135b93ef5c845a99e5e7165553fe8ad8",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_kernel5_all",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_kernel5_all/metrics.jsonl",
+          "sha256": "19e82ce8028cbd34c00613a29bee0731ef56577e35da6f493fb89185df284199"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_kernel5_all/best.json",
+          "sha256": "95d7cb44aae68393d71db2bff8d62cc837fdc59724d94f9ed2fbdd9f80beb88b"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_kernel5_early",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4846042,
+      "config": "archive/configs/coverage_all_methods/coverage_kernel5_early.json",
+      "config_sha256": "8f55986eb5d2e366174b9132f4061790fa237290b77e09074374dc7abc06d13e",
+      "original_config_sha256": "a125536765bd0fd542d80d580ff535000f7d5255a4095652ee600039b0be31ef",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_kernel5_early",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_kernel5_early/metrics.jsonl",
+          "sha256": "43d6792e7761929364772112d25d6eb4f48ae6434d89ee0e372f58453a7fd4f2"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_kernel5_early/best.json",
+          "sha256": "db05f71d8e4e621fdb2032c205ec11e4c7cea7e83d39ac3368ae17bc4ffd2fed"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_shortcut_avgpool",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_shortcut_avgpool.json",
+      "config_sha256": "aa55228a29e5585ebdd4c13fcbe994cd0d3afe13e7ec43992f3c878a61f39386",
+      "original_config_sha256": "de14cee02feea08ce886744820413f15b187e51dfdf1bd6f9f5a2e9bf29eba79",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_shortcut_avgpool",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_shortcut_avgpool/metrics.jsonl",
+          "sha256": "2a34659d16beb7a7f1159aa4dce93e8547fc49fd2f8c61aa7cd7d135359e992e"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_shortcut_avgpool/best.json",
+          "sha256": "4cde11f410af8802b663534bb7e5498a33fc06332507ea2037997531d9969cc4"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_shortcut_zero_pad",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4448218,
+      "config": "archive/configs/coverage_all_methods/coverage_shortcut_zero_pad.json",
+      "config_sha256": "5fdae7a9caf57d6314f77d00f5e25f4620373d2aef44c6711bfe3f1fa7c448b4",
+      "original_config_sha256": "a37ceb6137ac0ac28cd60adae9939429fe6b38c613ea9bc3f435f48f7a6efbe2",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_shortcut_zero_pad",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_shortcut_zero_pad/metrics.jsonl",
+          "sha256": "9134a72e388560634166aa8878ec85d93b52e0c09897750335f4419de90b8546"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_shortcut_zero_pad/best.json",
+          "sha256": "09fef771a79f076e711837d7ea84d17031232e410edaa2ca0625845365a5700a"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_pool_max",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_pool_max.json",
+      "config_sha256": "79c5d06e651979b32444e0fb2a7f4276d1051e2a313ef23782363c13a7ce728e",
+      "original_config_sha256": "6cb732cc48f80b819904b258d35d01fc375f0e38aba43187b716b7a2fd8ed6d4",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_pool_max",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_pool_max/metrics.jsonl",
+          "sha256": "25723551e62a79df0f645694d0a49f7d8c851bb0fb63602dd10fe63ac10564b2"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_pool_max/best.json",
+          "sha256": "5f09b0c594fdd2b2fd1c7bb6f0aff5beb5fbf49eb5a04de817b8029c44c110a4"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_pool_avgmax",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4482714,
+      "config": "archive/configs/coverage_all_methods/coverage_pool_avgmax.json",
+      "config_sha256": "c1521537cdc85cb7a66142399458d6127b36b58c8f140271deae469a3a90f108",
+      "original_config_sha256": "201879a538c448aa9ec68b8d561b68dce78915fabb53429d4d0b59c064fb12cb",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_pool_avgmax",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_pool_avgmax/metrics.jsonl",
+          "sha256": "4ddc3e739dda489cd5d23254cf6d8aae67688f06002c124ddabc9669b7b3d9fb"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_pool_avgmax/best.json",
+          "sha256": "3a7c739ebbb4c610be69f18c1a4c8ff12fe48231192fb3f82f75d84fd950dfca"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_depth40",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4235210,
+      "config": "archive/configs/coverage_all_methods/coverage_depth40.json",
+      "config_sha256": "5c811ecd91334be6d22f1e1626f8e5d907e3062c4c8ec4200a8c404f3e9bbb19",
+      "original_config_sha256": "77155e2312a984615bd43ce3b7d322867ae7210294aba5a343ca3f90f3fab130",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_depth40",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_depth40/metrics.jsonl",
+          "sha256": "4e87216c4d28013afe96f3f58f3b75b6306013ec4526f2002da159822aa1ae9a"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_depth40/best.json",
+          "sha256": "1567d4d139549c5f7ba71dcff7d125b511f523b4132d37dabb5313ebe84420d4"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_adam",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_adam.json",
+      "config_sha256": "84f5a1eaa35c323b7c421ab35dc7b55fe6e4c0da8648ec73c052d865346e52cc",
+      "original_config_sha256": "d566d35ddec438d77a7691fea798a7a6e35a63cffe733ed253a198edac8ffad8",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_adam",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_adam/metrics.jsonl",
+          "sha256": "cb121c35f9a0be7f488d952d3f979342ae25259053d1f28e35c13411e70bd540"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_adam/best.json",
+          "sha256": "5b1e9fbac8e9ac859232954c3c29629b4df0bedfc123101c4209df01b8b471b3"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_rmsprop",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_rmsprop.json",
+      "config_sha256": "e7d994f24923286fde2ab67c39a279db84864b807acc05abbe9b0d5f45d7eaae",
+      "original_config_sha256": "06541429beadce3200972a1e388b103da47cc972772c34719b2cdec5702b14ab",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_rmsprop",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_rmsprop/metrics.jsonl",
+          "sha256": "90ba276ad13669aa86f0b9ee8d176429b0178511f2dd02b7b8a8e032c7e719b9"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_rmsprop/best.json",
+          "sha256": "50cbece6f7bbd6e4f4179a6c6d6d507f12a5ee675743063f82db1dacd0724d67"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_adamw",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_adamw.json",
+      "config_sha256": "46651aff9f21a7ab3f582bdd9e29ed1e14069fc89e4100e7bc93b6971b4df1b6",
+      "original_config_sha256": "4e57b30808937cb32b8ae86f3590b061d76d897e1e92e998825713a3582267bc",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_adamw",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_adamw/metrics.jsonl",
+          "sha256": "c5ae3d604b868662905bf15d07ae291fcac4fbe4662f4d2028c14b4ca9c55966"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_adamw/best.json",
+          "sha256": "f89fb12738686ddbc8f4f618b659a5f893f27a2de1bf5f81f0cf2f6fe7ea252a"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_linear_schedule",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_linear_schedule.json",
+      "config_sha256": "737d3597c5636799de1cfc6b8e1a1833a579647da5b945a3b02338baeef2a183",
+      "original_config_sha256": "3c3cf6b0f45026703a835ab12d3a53c4e16f6a34d1c2c0c7c7decdfd13305543",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_linear_schedule",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_linear_schedule/metrics.jsonl",
+          "sha256": "a247e69f1a8ce3df79acbe3a26a6457c5b53a1f35e46fe791e0a04464da45c36"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_linear_schedule/best.json",
+          "sha256": "f342b07aed9cf3aa8fa45c7b9745a47c1239c656825af157527cbdc2cbba37bc"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_multistep_schedule",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_multistep_schedule.json",
+      "config_sha256": "8a7b582403d81e77f2591ee033835d63fb101f7e509d3a6e04c37f1e56730188",
+      "original_config_sha256": "e67341179722158bc0b1d73b1a0359941a16ae8b7f3d5516d4eec0bba5b0672f",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_multistep_schedule",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_multistep_schedule/metrics.jsonl",
+          "sha256": "f45965a0b37a0e36dbb9284dbbba4dd1b3b656591e4b1b43c086113dcb1023ed"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_multistep_schedule/best.json",
+          "sha256": "1aadf698f5099f535bdaa32a1f6ebe9bda48578318d8c53ba9c3c589f88a650f"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_batch64",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_batch64.json",
+      "config_sha256": "bc48b15e3549789fd2296ad3926adcf325e18f7d272cb356882e3725d88284c5",
+      "original_config_sha256": "5adec2dc113ba403d6dd9d9fcdddd27a1fa0fa182d2e57e4f9d66358c48f1afa",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_batch64",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_batch64/metrics.jsonl",
+          "sha256": "112d7e8a6724898793bcc3d79c0d19481166b155fc6f4541d2b34ed422e03d73"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_batch64/best.json",
+          "sha256": "d15bb04bfca71bd883871e641c6a996da908268f769b3eadcc761fb70402ad0b"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_batch256",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_batch256.json",
+      "config_sha256": "a6e27eab1ea73792aa1055c4171d1af159773415f520788311129118ea80cbec",
+      "original_config_sha256": "74b9c290f4621192031e386eac22d750fab8596102048be52082cec80193f6b5",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_batch256",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_batch256/metrics.jsonl",
+          "sha256": "95cfc668b36f7099ab11b8a1e66ef211c6130ef69dec1ba08b68a8611e3b6715"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_batch256/best.json",
+          "sha256": "6c927a0e812b10deca7a542a71bbb9feea0f292382e4364d3274e00e2ae6b1c5"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_weight_decay_low",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_weight_decay_low.json",
+      "config_sha256": "9d0d278059dd6cf47f8eadb9d677b43d8e89186f432742c9b87ad2365fcb3245",
+      "original_config_sha256": "dfc4b78c65bf02ce94a065924c6dd34659334654df88ed67e82da844fee4ad9e",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_weight_decay_low",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_weight_decay_low/metrics.jsonl",
+          "sha256": "5a2e65fde7ae051925a7bcf4419a3a80fde14eeb8f0cc1edc1e3469fc3e167d0"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_weight_decay_low/best.json",
+          "sha256": "017f536592e46f7585663904d4035329b0bae14e6858c329367e692463945528"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/coverage_weight_decay_high",
+      "phase": "screen",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/coverage_all_methods/coverage_weight_decay_high.json",
+      "config_sha256": "5e1ebc0d6ae18bc5f1c9de61913c7cfae9375388cc92681c2271f6f3c3ee77de",
+      "original_config_sha256": "5346334ce4ea986c582791a74167578a7d6812f2c40ce2df26cc900ba56065d1",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/coverage_weight_decay_high",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_weight_decay_high/metrics.jsonl",
+          "sha256": "52531752f5b58f3c0a89bc3f991fd6dc02b8ada9256fef7e0ccc3cb9298b6be1"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/coverage_weight_decay_high/best.json",
+          "sha256": "20cae52ad581fad57f7690911b05d8131b2c90ece2ca0678397dfcf76fa3fe2a"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/promoted_01_coverage_channels_custom",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4127578,
+      "config": "archive/configs/coverage_all_methods/promoted_01_coverage_channels_custom.json",
+      "config_sha256": "7ac5245218d72690f0b7ae851fb594e54b13317a43c2a58decdbe9ef77e89525",
+      "original_config_sha256": "ed617abfd568223f866b8cbe3fcb5b4c0b676efa2b1bd6c19ac072cb9bf49198",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/promoted_01_coverage_channels_custom",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/promoted_01_coverage_channels_custom/metrics.jsonl",
+          "sha256": "0b2fb93b02a9485e92941fd3b1d33738a1b744654efa65c2bd24680cb80c6ed0"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/promoted_01_coverage_channels_custom/best.json",
+          "sha256": "69dba1ba99319bea0b63690848e1c6fda47e2667d08c5423f343e6a208f54e81"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/coverage_all_methods/promoted_01_coverage_channels_custom/swa.json",
+          "sha256": "d1027522709c02757b5042fcf64623dac5b77cf7dd826228316e00060d5ebcf1"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "coverage_all_methods/promoted_02_coverage_pool_avgmax",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4482714,
+      "config": "archive/configs/coverage_all_methods/promoted_02_coverage_pool_avgmax.json",
+      "config_sha256": "e3842c5b6d644ebccf562929dbba467ebb11483ac7970a33c9a7fa41411b4229",
+      "original_config_sha256": "40c9eff0597e91a431f895690f570821569657f00510ecf10f6cd0642258ddfc",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/coverage_all_methods/runs/promoted_02_coverage_pool_avgmax",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/coverage_all_methods/promoted_02_coverage_pool_avgmax/metrics.jsonl",
+          "sha256": "bd16706d5fa27c3bb8532357ca2c92af02ea6dc82440072e6a863434f31d96e0"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/coverage_all_methods/promoted_02_coverage_pool_avgmax/best.json",
+          "sha256": "20a62f8928ff3b17b20d49d7c626ee817cbc57a0e2fcb3bfe38077092b270e8d"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/coverage_all_methods/promoted_02_coverage_pool_avgmax/swa.json",
+          "sha256": "a2438df654f56497f7aa792461b934bfbc73dd769f60a50cb56a2d0782753f68"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "efficient_mixup_confirmation_v1/mixup_refine50",
+      "phase": "continuation",
+      "configured_epochs": 50,
+      "completed_epochs": 50,
+      "parameters": 4697742,
+      "config": "archive/configs/efficient_mixup_confirmation_v1/mixup_refine50.json",
+      "config_sha256": "ebfc18dba86c776751423d401ab2bce9b5b02b93d743f85495f65c4f819f076d",
+      "original_config_sha256": "e13c4c09b7e64241dfa8345baee5d399af8d570d418238bd672745d0aa987157",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "efficient_resnets_v1",
+      "pythonpath": "archive/source_variants/efficient_resnets_v1/src",
+      "initialization": {
+        "checkpoint": "runs/efficient_mixup_v1/runs/mixup_alpha02_200/best.pt",
+        "sha256": "f8aea21c575d72ddd2bf395c853b8763d86daf76fff5303b92a5868186e0d655",
+        "epoch": 200,
+        "trained_epochs_total": 200,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/efficient_mixup_confirmation_v1/runs/mixup_refine50",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/efficient_mixup_confirmation_v1/mixup_refine50/metrics.jsonl",
+          "sha256": "7efa25234d531bd0cb350058eaea2b32ee14d69d39877fa0e33a55e36424b723"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/efficient_mixup_confirmation_v1/mixup_refine50/best.json",
+          "sha256": "3da37eb96c2163c307e00b53ccf805cbdcc327fdaefcd7bfc39a0d50fc1378be"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "efficient_mixup_v1/mixup_alpha02_200",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4697742,
+      "config": "archive/configs/efficient_mixup_v1/mixup_alpha02_200.json",
+      "config_sha256": "849ed3a3a857b27f8ec5cc010dceb5c8487cae1317905bb7979d6f4ff672231a",
+      "original_config_sha256": "e91058407814ef5f46f81de1c0452806819a77ba7b9f1a88cc74fc4b9aa746ea",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "efficient_resnets_v1",
+      "pythonpath": "archive/source_variants/efficient_resnets_v1/src",
+      "initialization": null,
+      "original_project_run_relative": "runs/efficient_mixup_v1/runs/mixup_alpha02_200",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/efficient_mixup_v1/mixup_alpha02_200/metrics.jsonl",
+          "sha256": "84c6c521d58d46af11b8a0f8682f1a8d6fc01cc4ed4253434ba18af24b1632bd"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/efficient_mixup_v1/mixup_alpha02_200/best.json",
+          "sha256": "1f3bdb9e1c01904e19490d1231cb0a708393b4d6a18be4ea8f3e231719b6c36d"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "efficient_resnets_v1/author_recipe_200",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4697742,
+      "config": "archive/configs/efficient_resnets_v1/author_recipe_200.json",
+      "config_sha256": "70779ac5d564b49c9435c5f99f26fdb8d1ec179e66a90a4ec95e1c273a07f791",
+      "original_config_sha256": "a66a4c4017938cb80d765ce42848b68a5c516cf0bd068a7cf42ed46d32531c99",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "efficient_resnets_v1",
+      "pythonpath": "archive/source_variants/efficient_resnets_v1/src",
+      "initialization": null,
+      "original_project_run_relative": "runs/efficient_resnets_v1/runs/author_recipe_200",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/efficient_resnets_v1/author_recipe_200/metrics.jsonl",
+          "sha256": "9ff04746e208a448eb60cf11173d07119f95b9cd0112844b5043f725696bcbf8"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/efficient_resnets_v1/author_recipe_200/best.json",
+          "sha256": "12e665dde843a29b3c16a3fdf2cb864a292db2e808ee5540bc5a303ffbc82704"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "error_driven_refinement_v1/local_blur005_50",
+      "phase": "continuation",
+      "configured_epochs": 50,
+      "completed_epochs": 50,
+      "parameters": 4480474,
+      "config": "archive/configs/error_driven_refinement_v1/local_blur005_50.json",
+      "config_sha256": "4a219ee62e4d61586bfcb986abf5dc9d4d86df968e9adc5c07ce6b80f9b232a3",
+      "original_config_sha256": "bcbf4bd061603b22a2adebf67246684c8bbf56a70a3b3cac2193774780e124c5",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "champion_continuation_v1",
+      "pythonpath": "archive/source_variants/champion_continuation_v1/src",
+      "initialization": {
+        "checkpoint": "runs/error_followup/runs/error_control_60/best.pt",
+        "sha256": "9f0a25c0c9842b4c76fc977abf37a8b706b86f2253f00938f8e86887732e6c51",
+        "epoch": 38,
+        "trained_epochs_total": 434,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/error_driven_refinement_v1/runs/local_blur005_50",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/error_driven_refinement_v1/local_blur005_50/metrics.jsonl",
+          "sha256": "07dfbb7207847a8a5eca7c24c093d48b2deec272ddbc96e3624fa61eec430372"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/error_driven_refinement_v1/local_blur005_50/best.json",
+          "sha256": "4579b758c8fe6cef28c848783ab35cf4f3b489df429e312bacb441662d65f994"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/error_driven_refinement_v1/local_blur005_50/swa.json",
+          "sha256": "f783750d7ebc76f45fa405d73be2bb8073f85d0f3c0304e8964219d6a6c00b71"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "error_driven_seed_confirmation_v1/local_control_seed43_50",
+      "phase": "continuation",
+      "configured_epochs": 50,
+      "completed_epochs": 50,
+      "parameters": 4480474,
+      "config": "archive/configs/error_driven_seed_confirmation_v1/local_control_seed43_50.json",
+      "config_sha256": "588d8f84cb2e29e41e36d2d2b0fd0448aee29c3ff7adfe7fb531837ef76a96d7",
+      "original_config_sha256": "1362939552b866a09cfc3feaccf459e9cd6c846692784a42bf8d4969f343255d",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "champion_continuation_v1",
+      "pythonpath": "archive/source_variants/champion_continuation_v1/src",
+      "initialization": {
+        "checkpoint": "runs/error_followup/runs/error_control_60/best.pt",
+        "sha256": "9f0a25c0c9842b4c76fc977abf37a8b706b86f2253f00938f8e86887732e6c51",
+        "epoch": 38,
+        "trained_epochs_total": 434,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/error_driven_seed_confirmation_v1/runs/local_control_seed43_50",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/error_driven_seed_confirmation_v1/local_control_seed43_50/metrics.jsonl",
+          "sha256": "b0757035828bcacd9a658978e5ef1e72be7d3367f0ccba68078e634b18b99488"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/error_driven_seed_confirmation_v1/local_control_seed43_50/best.json",
+          "sha256": "ee809d9eac83372f5761a96406e915853fb53b63db9d628ef0daf9ac15ce2253"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/error_driven_seed_confirmation_v1/local_control_seed43_50/swa.json",
+          "sha256": "aa340db05cc6e36b9049d2e1a0e10ff18918dad576610d11b70ba2934c352541"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "error_driven_seed_confirmation_v1/local_blur005_seed43_50",
+      "phase": "continuation",
+      "configured_epochs": 50,
+      "completed_epochs": 50,
+      "parameters": 4480474,
+      "config": "archive/configs/error_driven_seed_confirmation_v1/local_blur005_seed43_50.json",
+      "config_sha256": "0b2e2def29399778721cc377f24f6d3137b6e8da469e90c5c9b9b51cee668bcb",
+      "original_config_sha256": "4caec36587892ef58d0cbdf38643e7c56dea5fed8e987abf68ef4504c14b68c2",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "champion_continuation_v1",
+      "pythonpath": "archive/source_variants/champion_continuation_v1/src",
+      "initialization": {
+        "checkpoint": "runs/error_followup/runs/error_control_60/best.pt",
+        "sha256": "9f0a25c0c9842b4c76fc977abf37a8b706b86f2253f00938f8e86887732e6c51",
+        "epoch": 38,
+        "trained_epochs_total": 434,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/error_driven_seed_confirmation_v1/runs/local_blur005_seed43_50",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/error_driven_seed_confirmation_v1/local_blur005_seed43_50/metrics.jsonl",
+          "sha256": "3bf69b660ac92089ee3bc94560129ee24c9c2dc36b86cc725dbe53501ebb38a8"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/error_driven_seed_confirmation_v1/local_blur005_seed43_50/best.json",
+          "sha256": "3620dc08f551a82199bc45d86c4660ab8e9348a005df648c2dbba870f661bb92"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/error_driven_seed_confirmation_v1/local_blur005_seed43_50/swa.json",
+          "sha256": "d22787e3807f43b9d055686f42bb57b8b761634438a9f7b36fe202069bbb5e90"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "error_followup/error_control_60",
+      "phase": "continuation",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/error_followup/error_control_60.json",
+      "config_sha256": "5c1053ff788e81d5d43de5c0e76802bbe7854fa15c417ae3b8b6dcc3cf7f7f75",
+      "original_config_sha256": "e98ffc39ad353ef5290a8cba668003087c3a7db39c4e191c1597f8085a5bf33b",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/extended/runs/best_structure_long_400/best.pt",
+        "sha256": "7e43ffafecb60876dcd82e105853fbb377715524c1e93692de7327a6e1648e78",
+        "epoch": 396,
+        "trained_epochs_total": 396,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/error_followup/runs/error_control_60",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/error_followup/error_control_60/metrics.jsonl",
+          "sha256": "8db421acd8101f4a628c9f07e2679ce933a8ebdc28544ca16cc155ce1aef08f1"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/error_followup/error_control_60/best.json",
+          "sha256": "25b28da7ae3314707ced787bc57be8db0319af9733d9cab0190f2a877248eff7"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/error_followup/error_control_60/swa.json",
+          "sha256": "0e15987704e2b22953497cb1f17a4aad4fc98e70bac4be1d65161438d5a61867"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "error_followup/error_less_mixing_60",
+      "phase": "continuation",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/error_followup/error_less_mixing_60.json",
+      "config_sha256": "0b61bc07d8a426ef02d0574c72f93cf1313a353b7ff56c6ca048f2611cd1528a",
+      "original_config_sha256": "ade32a0334409d2f85751aa8b915282c52e2eeae43a99db4364cba59752e12a8",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/extended/runs/best_structure_long_400/best.pt",
+        "sha256": "7e43ffafecb60876dcd82e105853fbb377715524c1e93692de7327a6e1648e78",
+        "epoch": 396,
+        "trained_epochs_total": 396,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/error_followup/runs/error_less_mixing_60",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/error_followup/error_less_mixing_60/metrics.jsonl",
+          "sha256": "3b9af196e4a00c801ab99b6b5740e2a09d37322c8878536df40afd293bae36bb"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/error_followup/error_less_mixing_60/best.json",
+          "sha256": "1915653df6cab524d856cb625381c3180c7468861712f60acbb5717d77781b5f"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/error_followup/error_less_mixing_60/swa.json",
+          "sha256": "f711d5b76efb6506b7ba40dbb0d88a915a992a9d3a630813516b97836153e2c8"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "error_followup/error_mild_appearance_60",
+      "phase": "continuation",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4480474,
+      "config": "archive/configs/error_followup/error_mild_appearance_60.json",
+      "config_sha256": "88d215f17e0b044f1d981b1b4a048e990773d17b7fdd9cbdd424c041e485caca",
+      "original_config_sha256": "55d0900489863a8b3dac195a6ceb85140fdcb0ff792d6c59c9194dc57242f1d8",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/extended/runs/best_structure_long_400/best.pt",
+        "sha256": "7e43ffafecb60876dcd82e105853fbb377715524c1e93692de7327a6e1648e78",
+        "epoch": 396,
+        "trained_epochs_total": 396,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/error_followup/runs/error_mild_appearance_60",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/error_followup/error_mild_appearance_60/metrics.jsonl",
+          "sha256": "e87197ba77479a0cb4e905865a9128bc85c072f7b7c91d857840e0f19773212f"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/error_followup/error_mild_appearance_60/best.json",
+          "sha256": "1915653df6cab524d856cb625381c3180c7468861712f60acbb5717d77781b5f"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/error_followup/error_mild_appearance_60/swa.json",
+          "sha256": "335d92232332fd66a5d6d72487f4a00715e77e3d09d49177cfbd0e4ce44c24cd"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "extended/refine_best_100",
+      "phase": "continuation",
+      "configured_epochs": 100,
+      "completed_epochs": 100,
+      "parameters": 4480474,
+      "config": "archive/configs/extended/refine_best_100.json",
+      "config_sha256": "25a66cb5929f0c2c0cb983b8184209bb4b1725fb4d1bfadb0a1143538d7421cf",
+      "original_config_sha256": "4b2fa83cd6f6cd7a5fdf597dd31d464ef13a458d94a89e523dce0ddbace4812a",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/campaign/runs/distillation_full/best.pt",
+        "sha256": "a9048b181082f13c524453af93c54ed489dece345ad3be328bc2cade509e7b0f",
+        "epoch": 200,
+        "trained_epochs_total": 200,
+        "selected_source": "swa"
+      },
+      "original_project_run_relative": "runs/extended/runs/refine_best_100",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/extended/refine_best_100/metrics.jsonl",
+          "sha256": "6caf98e41c48ee8e9d97ed2450e31334c36c8ba963de60e8b6dc6cb89ebcee45"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/extended/refine_best_100/best.json",
+          "sha256": "d5f530163102487ba21d8f962f08b7fa9d7e25d198d5820a2386e2e15ced6f3e"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/extended/refine_best_100/swa.json",
+          "sha256": "84698437e9180ac5a6ddd73a6fcc40ede5981b6df78d46a52843ddedc5845abd"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "extended/se_full_200",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4614146,
+      "config": "archive/configs/extended/se_full_200.json",
+      "config_sha256": "d6d214caecf857708786666b00490a8da42fb46079046ee9c384e74edd8ab180",
+      "original_config_sha256": "325b6f1789037bf7404383337f7e1d729508850b86494c78e115449633fc9c83",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/extended/runs/se_full_200",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/extended/se_full_200/metrics.jsonl",
+          "sha256": "da6e6e540ac2c79d19562bc3271915e6e6cf42b5bd85eb7ff2dfc664844704ed"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/extended/se_full_200/best.json",
+          "sha256": "566181243ab5dffd3a993ed9fc038f2f73a7b490085e976b20e799cbdfb5a271"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/extended/se_full_200/swa.json",
+          "sha256": "f9a855dc260901d1dae4ca5e27342253da7b9c27b5dceeea5c55ce44eb2a05d1"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "extended/wide_se_full_300",
+      "phase": "full_from_scratch",
+      "configured_epochs": 300,
+      "completed_epochs": 300,
+      "parameters": 4948626,
+      "config": "archive/configs/extended/wide_se_full_300.json",
+      "config_sha256": "5bd2915347b471fa3ef47b9d903b285aca833636a7ee7c936e5efa456bf1f209",
+      "original_config_sha256": "379f52bb8cc8553d5270fb4d1e9ebe0a9dddcb25d65920042d3948cda48baa7a",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/extended/runs/wide_se_full_300",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/extended/wide_se_full_300/metrics.jsonl",
+          "sha256": "e5383b59833b8570999ed9db613823a5b8e0f3099104a4ed717ac617fcfacd33"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/extended/wide_se_full_300/best.json",
+          "sha256": "eb27d3f4cfb2f0ea2b3c02b94142a7ae91c9c957c62b935fcfa20b6f369293f3"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/extended/wide_se_full_300/swa.json",
+          "sha256": "1599d8357fb211b365ba0db5d52a6333a38a8ad01edbb3a362b84f99344fd43b"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "extended/se_mixup_full_200",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4614146,
+      "config": "archive/configs/extended/se_mixup_full_200.json",
+      "config_sha256": "74d7a87cc63f052224e4b4637e1c1d6ffdcab6d168df7c97a45f126b7a1449fd",
+      "original_config_sha256": "9970b5eb0079196868032d8c65b1a2807e442170a7f6f78b60da198ed83abbd2",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/extended/runs/se_mixup_full_200",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/extended/se_mixup_full_200/metrics.jsonl",
+          "sha256": "9f81b10331cd5be62d756c82ba8eb594d80402f94b1ee851063970d69fb32dc0"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/extended/se_mixup_full_200/best.json",
+          "sha256": "3b50d159f977995f3ff7416fc3956f7b12f83ccd3eec7c9ae303c7df360a2e99"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/extended/se_mixup_full_200/swa.json",
+          "sha256": "1b46babe340a4fc7ae5fd4f8987a76be0e7b6b7008ddff0f57c38302a78ac792"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "extended/refine_mild_ra_100",
+      "phase": "continuation",
+      "configured_epochs": 100,
+      "completed_epochs": 100,
+      "parameters": 4480474,
+      "config": "archive/configs/extended/refine_mild_ra_100.json",
+      "config_sha256": "873fdfb315d6ae81540f78e0b95cf20a6ba8675abef90281f10e4e43a1b56667",
+      "original_config_sha256": "4694b51adcf6024847769d025a5746a5833b50b43817564cc0b6b4db1e90bb10",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/extended/runs/refine_best_100/best.pt",
+        "sha256": "8e748cc932ed2aab8f135671147d9965ae113d1ac635cec6fb730658dca791b9",
+        "epoch": 86,
+        "trained_epochs_total": 286,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/extended/runs/refine_mild_ra_100",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/extended/refine_mild_ra_100/metrics.jsonl",
+          "sha256": "39fb405ea5e6099c4c87aa694fe7a1da0f4971e5f158e5db064e8dac5f536af4"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/extended/refine_mild_ra_100/best.json",
+          "sha256": "96944170d972065b6fdc686930e002e094c3b2f17b8f9fd3fb94ee3d5fb1182f"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/extended/refine_mild_ra_100/swa.json",
+          "sha256": "be9bd2a8ba80c20cda16f041348e424cff53775b5edf2a557e2265aaeb987cef"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "extended/best_structure_long_400",
+      "phase": "full_from_scratch",
+      "configured_epochs": 400,
+      "completed_epochs": 400,
+      "parameters": 4480474,
+      "config": "archive/configs/extended/best_structure_long_400.json",
+      "config_sha256": "d64b98e1e014498510ad4edef94c33c0006734815e9b4f8e60378f949b9b97b3",
+      "original_config_sha256": "4cf48286a6c1ed40cad97c1ed5789618795d198858daa84f23abed6ba7c43234",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/extended/runs/best_structure_long_400",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/extended/best_structure_long_400/metrics.jsonl",
+          "sha256": "458c02ec33f5bb72a3a365e1ccc8c9c63b22f2ba16f04bf376bea7634eae5176"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/extended/best_structure_long_400/best.json",
+          "sha256": "d7fd3ef8721fecb8f0d33bf3903f661c4da5d2ff873c7b13d093482861618106"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/extended/best_structure_long_400/swa.json",
+          "sha256": "1deb0eadbdeed4e8c03bf3f81e7f780e320d06fcaf56b36d8cd6d0a2ebb56120"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "extended/best_structure_seed143_300",
+      "phase": "full_from_scratch",
+      "configured_epochs": 300,
+      "completed_epochs": 300,
+      "parameters": 4480474,
+      "config": "archive/configs/extended/best_structure_seed143_300.json",
+      "config_sha256": "b74a786508377b69c27d8157fc839a22585c0586c90827c1cfe20d0db9c5844f",
+      "original_config_sha256": "8f531363a0928b7023161be346c3126c80fac0a2b29d52a72ee2e3f99ae4f906",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/extended/runs/best_structure_seed143_300",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/extended/best_structure_seed143_300/metrics.jsonl",
+          "sha256": "f31b18606a9cc07c62bb4dd00ce4dfda687645aa3e995bc361afd36e71206bdb"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/extended/best_structure_seed143_300/best.json",
+          "sha256": "67ece87262cfb1eb128b9cc95b8445dea0044a9a5df9798fc73b0c86b20e2817"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/extended/best_structure_seed143_300/swa.json",
+          "sha256": "a6ed6890f2131dbae2571ccaf89688792376d07a63d77c91c8b5a44796372820"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "extended/confirm_best_100",
+      "phase": "continuation",
+      "configured_epochs": 100,
+      "completed_epochs": 100,
+      "parameters": 4480474,
+      "config": "archive/configs/extended/confirm_best_100.json",
+      "config_sha256": "1e5280ee83201e6bde417381d0c026c44208cf358205cbe8f772db93983de6fe",
+      "original_config_sha256": "d3ecd0515e500d8a7725bd5fce86dde999bce82099417560779457d3d54f923b",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/extended/runs/refine_best_100/best.pt",
+        "sha256": "8e748cc932ed2aab8f135671147d9965ae113d1ac635cec6fb730658dca791b9",
+        "epoch": 86,
+        "trained_epochs_total": 286,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/extended/runs/confirm_best_100",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/extended/confirm_best_100/metrics.jsonl",
+          "sha256": "4b204c71b672d9de09006d21180fc109c8f2f265872f739f8cb531aadafff8d3"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/extended/confirm_best_100/best.json",
+          "sha256": "96944170d972065b6fdc686930e002e094c3b2f17b8f9fd3fb94ee3d5fb1182f"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/extended/confirm_best_100/swa.json",
+          "sha256": "9e24384640a0891880423dcab7f4e09b97ffbedafce9d324c92a01231b82d94e"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "four_stage_v1/four_stage_400",
+      "phase": "full_from_scratch",
+      "configured_epochs": 400,
+      "completed_epochs": 400,
+      "parameters": 4496043,
+      "config": "archive/configs/four_stage_v1/four_stage_400.json",
+      "config_sha256": "6ea27784bc04c0dcceb9e22b4f782fa14903a695245fd6020664e29a248ced9e",
+      "original_config_sha256": "bca61f201bee1d1abd588efccfc3f0d2b96165888e7c24a723421e71c8f9eb86",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "four_stage_v1",
+      "pythonpath": "archive/source_variants/four_stage_v1/src",
+      "initialization": null,
+      "original_project_run_relative": "runs/four_stage_v1/runs/four_stage_400",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/four_stage_v1/four_stage_400/metrics.jsonl",
+          "sha256": "4672e864418dcbfdc8190c750272995ed02feed0a4d2c3bf49e741f0a86184c8"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/four_stage_v1/four_stage_400/best.json",
+          "sha256": "ba37a4e7e9ce79698f64d23867d5a52ec14a6124f5cbce7b58257dee1c193fcc"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/four_stage_v1/four_stage_400/swa.json",
+          "sha256": "f783fc86696a226ff474a2b0173a92269e0a28ebfd117e6e55b3d4f2ae5d722a"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "generalization_followup/photometric_refine_best_100",
+      "phase": "continuation",
+      "configured_epochs": 100,
+      "completed_epochs": 100,
+      "parameters": 4480474,
+      "config": "archive/configs/generalization_followup/photometric_refine_best_100.json",
+      "config_sha256": "94f03aebc1c6a6290d940682b3e7fd8c5a4f653e9651a946fab71d929ef93da1",
+      "original_config_sha256": "44d6fad667ba5625b6efc3e13ec9c509e195dacc53a1021d3359345d4f53ff54",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/extended/runs/refine_best_100/best.pt",
+        "sha256": "8e748cc932ed2aab8f135671147d9965ae113d1ac635cec6fb730658dca791b9",
+        "epoch": 86,
+        "trained_epochs_total": 286,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/generalization_followup/runs/photometric_refine_best_100",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/generalization_followup/photometric_refine_best_100/metrics.jsonl",
+          "sha256": "32e2d040358fc7033da7f3f73dd49afaf8fb8ad638a911b1ced834351b18e056"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/generalization_followup/photometric_refine_best_100/best.json",
+          "sha256": "96944170d972065b6fdc686930e002e094c3b2f17b8f9fd3fb94ee3d5fb1182f"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/generalization_followup/photometric_refine_best_100/swa.json",
+          "sha256": "2d1d58faaad1132a841740f8f2f1408e7c75f5ace2cabf5ed5c18e49884e81d8"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "generalization_followup/sam_full_200",
+      "phase": "full_from_scratch",
+      "configured_epochs": 200,
+      "completed_epochs": 200,
+      "parameters": 4480474,
+      "config": "archive/configs/generalization_followup/sam_full_200.json",
+      "config_sha256": "43f2a377d34a204837396af976786260ec2e377f05e9b031a01ce1cc75384406",
+      "original_config_sha256": "455b54a5bbea53bbc51bc845e97ea4ef7998546e67f1ef6c3b904e187ab8b878",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/generalization_followup/runs/sam_full_200",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/generalization_followup/sam_full_200/metrics.jsonl",
+          "sha256": "9882fdb8e6b96326822079e852a350dc8fe021a9ffb7fd9119860e1add0ef94f"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/generalization_followup/sam_full_200/best.json",
+          "sha256": "7b8bea4d540471052eebf06e80aab354c228c89bd7fbb93179f9efd1f6980533"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/generalization_followup/sam_full_200/swa.json",
+          "sha256": "a56c7e3d622ab66c811c569e370bbae6f85174ba74a6f686f4419b1fead19ce2"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "generalization_followup/robust_wrn_full_300",
+      "phase": "full_from_scratch",
+      "configured_epochs": 300,
+      "completed_epochs": 300,
+      "parameters": 4480474,
+      "config": "archive/configs/generalization_followup/robust_wrn_full_300.json",
+      "config_sha256": "450e08264c38d0391375134b00977d64df1f9f66e5aed03479cd2547700911bb",
+      "original_config_sha256": "8ee8e7467b6c5c533abe139a7a894141b9de709c5c44be7f70dd740c1627348f",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/generalization_followup/runs/robust_wrn_full_300",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/generalization_followup/robust_wrn_full_300/metrics.jsonl",
+          "sha256": "f3a76032ae126640241ab1c0950c42fd48e42cf62b35078245929ffb2a3eddc8"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/generalization_followup/robust_wrn_full_300/best.json",
+          "sha256": "507a94e585e9c859b691db913f79e710868b0d4d9ad5142fc9b7523c6203c5e5"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/generalization_followup/robust_wrn_full_300/swa.json",
+          "sha256": "503da04cc240fc96eb4cbc2ed44cd5df818c62ed1fe809a1df0ba079043bbcb1"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "generalization_followup/robust_wide_se_full_300",
+      "phase": "full_from_scratch",
+      "configured_epochs": 300,
+      "completed_epochs": 300,
+      "parameters": 4948626,
+      "config": "archive/configs/generalization_followup/robust_wide_se_full_300.json",
+      "config_sha256": "d81803910464c678b1893a40f6092d96f42f96fd8b37ddb18f8e53dd5e1b7a77",
+      "original_config_sha256": "fb22bae03b3d5accf80b65c1fb75feaf8487f1f948225d8ecca018b220c277e6",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": null,
+      "original_project_run_relative": "runs/generalization_followup/runs/robust_wide_se_full_300",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/generalization_followup/robust_wide_se_full_300/metrics.jsonl",
+          "sha256": "95f58e8b80e2bc583d0bda471b4f51737881b7f95bb3aee2bc4b0d765be2f45a"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/generalization_followup/robust_wide_se_full_300/best.json",
+          "sha256": "2f98864c0d6078f39ffb499a9e2a8b433fb80a124efbf417b4bb4ef6e5058658"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/generalization_followup/robust_wide_se_full_300/swa.json",
+          "sha256": "ecd4538cd8aaa15d9623fd0dbdb962a611dfcf6dca2c39fe275c97ff1aa06cf2"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "generalization_followup/confirm_generalization_best_100",
+      "phase": "continuation",
+      "configured_epochs": 100,
+      "completed_epochs": 100,
+      "parameters": 4480474,
+      "config": "archive/configs/generalization_followup/confirm_generalization_best_100.json",
+      "config_sha256": "50253a3ea80863105460bcc26d241e8a3ab5a0f3857ad32d55024c74b30f0de3",
+      "original_config_sha256": "721e3789a21e1d8ba31502f68205e0cdaea96eb8fbf199cdd0fbc6af49543f3b",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/extended/runs/refine_best_100/best.pt",
+        "sha256": "8e748cc932ed2aab8f135671147d9965ae113d1ac635cec6fb730658dca791b9",
+        "epoch": 86,
+        "trained_epochs_total": 286,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/generalization_followup/runs/confirm_generalization_best_100",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/generalization_followup/confirm_generalization_best_100/metrics.jsonl",
+          "sha256": "859af73a274fd677f3cab9ed9217fb1d6d3061f45f9b10790a3bcdebe86eb87f"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/generalization_followup/confirm_generalization_best_100/best.json",
+          "sha256": "96944170d972065b6fdc686930e002e094c3b2f17b8f9fd3fb94ee3d5fb1182f"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/generalization_followup/confirm_generalization_best_100/swa.json",
+          "sha256": "da0a5c3647478ea934d2f8e06cd01441cf7de54b9f5475ea46d22d2cde8334d8"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "label_smoothing_refinement_v1/local_ls0_50",
+      "phase": "continuation",
+      "configured_epochs": 50,
+      "completed_epochs": 50,
+      "parameters": 4480474,
+      "config": "archive/configs/label_smoothing_refinement_v1/local_ls0_50.json",
+      "config_sha256": "4392c50ff8864389caaae1d14c52660829f8fa4b80afbd1f59c2ba26e06921ad",
+      "original_config_sha256": "cd5a4835439c889a439de4780238f68eee0cdf4e2c3d0c4367a8d17ad61324bc",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "champion_continuation_v1",
+      "pythonpath": "archive/source_variants/champion_continuation_v1/src",
+      "initialization": {
+        "checkpoint": "runs/error_followup/runs/error_control_60/best.pt",
+        "sha256": "9f0a25c0c9842b4c76fc977abf37a8b706b86f2253f00938f8e86887732e6c51",
+        "epoch": 38,
+        "trained_epochs_total": 434,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/label_smoothing_refinement_v1/runs/local_ls0_50",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/label_smoothing_refinement_v1/local_ls0_50/metrics.jsonl",
+          "sha256": "6cca1fca31fac0ed2aa45a95879019d625f4c7ea14b642767cb321f9855a9755"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/label_smoothing_refinement_v1/local_ls0_50/best.json",
+          "sha256": "0d10fe9a9843cbc1b846681838eb74c6d1a10f63b73741c2fba72c081a597559"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/label_smoothing_refinement_v1/local_ls0_50/swa.json",
+          "sha256": "7a5cbacaaac863ebe78a05c23277d977b5f2363f8d88dec8e88864ad725cf9d7"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "pooling_confirmation_v1/pool4_refine50",
+      "phase": "continuation",
+      "configured_epochs": 50,
+      "completed_epochs": 50,
+      "parameters": 4487194,
+      "config": "archive/configs/pooling_confirmation_v1/pool4_refine50.json",
+      "config_sha256": "5ebdb5a1920c399f2b852dd1334579bd16350e923a3149f3b9045cd10606be48",
+      "original_config_sha256": "db85c31a96079c4cac72ccf1b8072636a38443a7ae8aeecd16422c8b1f572827",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "architecture_completion_v1",
+      "pythonpath": "archive/source_variants/architecture_completion_v1/src",
+      "initialization": {
+        "checkpoint": "runs/architecture_completion_v1/runs/pool_size4_200/best.pt",
+        "sha256": "624ac307dc4213ec387946c246f422c852bf0b825722fe0035f72dffa9ee2e3d",
+        "epoch": 194,
+        "trained_epochs_total": 194,
+        "selected_source": "model"
+      },
+      "original_project_run_relative": "runs/pooling_confirmation_v1/runs/pool4_refine50",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/pooling_confirmation_v1/pool4_refine50/metrics.jsonl",
+          "sha256": "c146f9dea11197205a51c8d13449efe48f63e0a98910701a28fa9266385ff324"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/pooling_confirmation_v1/pool4_refine50/best.json",
+          "sha256": "ee96f3d992fa54c52dfd9bc0d9ea97dd7c833511c9523c81d1df073b810b4982"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/pooling_confirmation_v1/pool4_refine50/swa.json",
+          "sha256": "2d29af7111ae069b5704400401ee98f3312dc8de069f001fd95540eb31ab0295"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "research_augmix_v1/augmix_robust_matched_60",
+      "phase": "continuation",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4948626,
+      "config": "archive/configs/research_augmix_v1/augmix_robust_matched_60.json",
+      "config_sha256": "0e2de1586afe961d6c07cdd31058d3286c14d1646fb019448b5f7d82731533fc",
+      "original_config_sha256": "1abea76ab089509f678791b4e02ddab0aaedf85bb0ae194c380ba605631692c7",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "augmix_v1",
+      "pythonpath": "archive/source_variants/augmix_v1/src",
+      "initialization": {
+        "checkpoint": "runs/generalization_followup/runs/robust_wide_se_full_300/best.pt",
+        "sha256": "afc8810a65246e3d0858de7c744ca7c1ce1b197a4db9b39b55aa9da797e4c5f1",
+        "epoch": 285,
+        "trained_epochs_total": 285,
+        "selected_source": "ema"
+      },
+      "original_project_run_relative": "runs/research_augmix_v1/runs/augmix_robust_matched_60",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/research_augmix_v1/augmix_robust_matched_60/metrics.jsonl",
+          "sha256": "4f25a653ed21c02dea13375d71a4bb0e41dcb995e8120ad89b385116bae4c41c"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/research_augmix_v1/augmix_robust_matched_60/best.json",
+          "sha256": "769fb5e90dd96d4afa9ad07ca4c45c059aa8730e3e5f6b34472f45fb7eb59a7e"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/research_augmix_v1/augmix_robust_matched_60/swa.json",
+          "sha256": "e28e1be4b41d2c9eb9351e2d435df9a528e194f000a82a977c46f95a9cd2d5d5"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "research_seed_confirmation_v1/ra_seed43_60",
+      "phase": "continuation",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4948626,
+      "config": "archive/configs/research_seed_confirmation_v1/ra_seed43_60.json",
+      "config_sha256": "c96530c98543bfe71a152e0b949c7f06d2c4995f3a06fbb7aacf81ad88703b77",
+      "original_config_sha256": "b9b319be6f71c95386348f7ae3c960ca4908f738c285174999f687faf8225fd4",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "augmix_v1",
+      "pythonpath": "archive/source_variants/augmix_v1/src",
+      "initialization": {
+        "checkpoint": "runs/generalization_followup/runs/robust_wide_se_full_300/best.pt",
+        "sha256": "afc8810a65246e3d0858de7c744ca7c1ce1b197a4db9b39b55aa9da797e4c5f1",
+        "epoch": 285,
+        "trained_epochs_total": 285,
+        "selected_source": "ema"
+      },
+      "original_project_run_relative": "runs/research_seed_confirmation_v1/runs/ra_seed43_60",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/research_seed_confirmation_v1/ra_seed43_60/metrics.jsonl",
+          "sha256": "1fc270e53c3f94ccaed0b899e80737cdb8fa6b431f1c66d95440c90160b58f07"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/research_seed_confirmation_v1/ra_seed43_60/best.json",
+          "sha256": "72f8503d2d3879cfdee5d642980b1737f6e3af0382ca23e584a25aa4ff387075"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/research_seed_confirmation_v1/ra_seed43_60/swa.json",
+          "sha256": "462b48e7cc49ec3ed4449de44b282cb65d3f1be021df3262be33af0c8692aaba"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "research_seed_confirmation_v1/augmix_seed43_60",
+      "phase": "continuation",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4948626,
+      "config": "archive/configs/research_seed_confirmation_v1/augmix_seed43_60.json",
+      "config_sha256": "8c0f642fbd72410fd3a4859c00f4db185626cab4f74c6e60064f4bca602efc6c",
+      "original_config_sha256": "0e4c5cddf68183f5b118b61d31c175af452d6861831aa421ef4b395e842a5f83",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "augmix_v1",
+      "pythonpath": "archive/source_variants/augmix_v1/src",
+      "initialization": {
+        "checkpoint": "runs/generalization_followup/runs/robust_wide_se_full_300/best.pt",
+        "sha256": "afc8810a65246e3d0858de7c744ca7c1ce1b197a4db9b39b55aa9da797e4c5f1",
+        "epoch": 285,
+        "trained_epochs_total": 285,
+        "selected_source": "ema"
+      },
+      "original_project_run_relative": "runs/research_seed_confirmation_v1/runs/augmix_seed43_60",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/research_seed_confirmation_v1/augmix_seed43_60/metrics.jsonl",
+          "sha256": "447fc8a93d3f0628488d1e6edf0155583efa5ef0298db6b44d89c7613ce02ec0"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/research_seed_confirmation_v1/augmix_seed43_60/best.json",
+          "sha256": "9bc30edd1176b10a15a849b4971f5b1aa0aca5d59554557298c98eaad129c831"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/research_seed_confirmation_v1/augmix_seed43_60/swa.json",
+          "sha256": "485d20eaf8f210f8ba767d8e7f66255b38540d9206a5868a4f71b5b99390d2b3"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "robust_followup/robust_control_60",
+      "phase": "continuation",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4948626,
+      "config": "archive/configs/robust_followup/robust_control_60.json",
+      "config_sha256": "0244a3a0aa428cdc3f0e1f5b422657cc610d16ce39cbba7995ca481ecd23c5cc",
+      "original_config_sha256": "d110046071df1035875a76195d3721526a5740074bdc241aa71c4eeb9eaa5582",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/generalization_followup/runs/robust_wide_se_full_300/best.pt",
+        "sha256": "afc8810a65246e3d0858de7c744ca7c1ce1b197a4db9b39b55aa9da797e4c5f1",
+        "epoch": 285,
+        "trained_epochs_total": 285,
+        "selected_source": "ema"
+      },
+      "original_project_run_relative": "runs/robust_followup/runs/robust_control_60",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/robust_followup/robust_control_60/metrics.jsonl",
+          "sha256": "498e92b23ec32ca2d61d35506b3d00adc378e751e0d02ce455beff12cef12bb3"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/robust_followup/robust_control_60/best.json",
+          "sha256": "9777db1a7a9056ca574f87a1dbde74ce80d6a9822cf575a778d9fca069477dbc"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/robust_followup/robust_control_60/swa.json",
+          "sha256": "62f5a2757e5ace6f9255237267df086727afce400fc3958d898b2ea9226ececd"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    },
+    {
+      "id": "robust_followup/robust_less_mixing_60",
+      "phase": "continuation",
+      "configured_epochs": 60,
+      "completed_epochs": 60,
+      "parameters": 4948626,
+      "config": "archive/configs/robust_followup/robust_less_mixing_60.json",
+      "config_sha256": "9d8a5a109d7131046e98851c333c9e7bdad0231f53aedd430f58f7c44870ac58",
+      "original_config_sha256": "548df80ab6b2d56b4ef436621d7e5abb8d0c13ed9572e9c1f908f81226f63d01",
+      "path_changes_only": [
+        {
+          "field": "dataset.root",
+          "original_project_value": "../../work/competition",
+          "published_value": "data/competition"
+        }
+      ],
+      "source_variant": "main",
+      "pythonpath": "src",
+      "initialization": {
+        "checkpoint": "runs/generalization_followup/runs/robust_wide_se_full_300/best.pt",
+        "sha256": "afc8810a65246e3d0858de7c744ca7c1ce1b197a4db9b39b55aa9da797e4c5f1",
+        "epoch": 285,
+        "trained_epochs_total": 285,
+        "selected_source": "ema"
+      },
+      "original_project_run_relative": "runs/robust_followup/runs/robust_less_mixing_60",
+      "result_files": {
+        "metrics.jsonl": {
+          "published_path": "archive/metrics/robust_followup/robust_less_mixing_60/metrics.jsonl",
+          "sha256": "a926e36ed6299269aa7c7ee3a8c0152f86ec119df8a65046d58196d26c50270d"
+        },
+        "best.json": {
+          "published_path": "archive/metrics/robust_followup/robust_less_mixing_60/best.json",
+          "sha256": "c98c38c1ed8ac07f14cc0535336f584247c532666f91744a4d4b3b9c523585d8"
+        },
+        "swa.json": {
+          "published_path": "archive/metrics/robust_followup/robust_less_mixing_60/swa.json",
+          "sha256": "e77cae9222bd37c05ae404840427b1d46bbd6e04381efe0877533c86916fe14b"
+        }
+      },
+      "admission_note": "Use matching source variant; random initialization if initialization=null, otherwise original project best.pt with best.json. Teacher path, if present, is a separate dependency."
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "policy": "Original project files remain unmodified. No images, sample labels, prediction rows, accounts, credentials, or weights are distributed.",
+  "exact_copies": [
+    {
+      "original_project_relative_path": "src/dlend/__init__.py",
+      "published_path": "src/dlend/__init__.py",
+      "original_sha256": "0bdc97224eec3e25818a4e319a485f3ffced3bec232797739396bfea22183f39",
+      "published_sha256": "0bdc97224eec3e25818a4e319a485f3ffced3bec232797739396bfea22183f39"
+    },
+    {
+      "original_project_relative_path": "src/dlend/data.py",
+      "published_path": "src/dlend/data.py",
+      "original_sha256": "4ecfbc094861220ae08776f5fb23d9660d4c5491986c23012850a568f00d0d94",
+      "published_sha256": "4ecfbc094861220ae08776f5fb23d9660d4c5491986c23012850a568f00d0d94"
+    },
+    {
+      "original_project_relative_path": "src/dlend/evaluate.py",
+      "published_path": "src/dlend/evaluate.py",
+      "original_sha256": "0493699141b59edfb8b677dd8a680744bf5cd88373e0294f2422a146f7cfa538",
+      "published_sha256": "0493699141b59edfb8b677dd8a680744bf5cd88373e0294f2422a146f7cfa538"
+    },
+    {
+      "original_project_relative_path": "src/dlend/models.py",
+      "published_path": "src/dlend/models.py",
+      "original_sha256": "2ba894cbf0d17d1a8ae848462286cbede05657fdcdbc24f4773214e774299b48",
+      "published_sha256": "2ba894cbf0d17d1a8ae848462286cbede05657fdcdbc24f4773214e774299b48"
+    },
+    {
+      "original_project_relative_path": "src/dlend/optim.py",
+      "published_path": "src/dlend/optim.py",
+      "original_sha256": "d80d9fb6c4cabe130c1615c5d99eb357b76163fe579f622232a7f700f8dc39ff",
+      "published_sha256": "d80d9fb6c4cabe130c1615c5d99eb357b76163fe579f622232a7f700f8dc39ff"
+    },
+    {
+      "original_project_relative_path": "src/dlend/predict.py",
+      "published_path": "src/dlend/predict.py",
+      "original_sha256": "87328416f9c44dbccaa98e2fb0207724e3158e03115c1f356b34c629015833ad",
+      "published_sha256": "87328416f9c44dbccaa98e2fb0207724e3158e03115c1f356b34c629015833ad"
+    },
+    {
+      "original_project_relative_path": "src/dlend/train.py",
+      "published_path": "src/dlend/train.py",
+      "original_sha256": "d9d00471fb6fd21a6947d69dc45fa84105c4cbdf8d892168d49357309d39304c",
+      "published_sha256": "d9d00471fb6fd21a6947d69dc45fa84105c4cbdf8d892168d49357309d39304c"
+    },
+    {
+      "original_project_relative_path": "src/dlend/utils.py",
+      "published_path": "src/dlend/utils.py",
+      "original_sha256": "0e986a11e9ffb22fef167d6d77a7858ac93ae0fa65b7e620a424f947ca4bd4e9",
+      "published_sha256": "0e986a11e9ffb22fef167d6d77a7858ac93ae0fa65b7e620a424f947ca4bd4e9"
+    },
+    {
+      "original_project_relative_path": "scripts/prepare_competition.py",
+      "published_path": "scripts/prepare_competition.py",
+      "original_sha256": "616afd25bb46d9a35d511cb963f225c7af562338ad88d38a4ef33104b9157640",
+      "published_sha256": "616afd25bb46d9a35d511cb963f225c7af562338ad88d38a4ef33104b9157640"
+    },
+    {
+      "original_project_relative_path": "scripts/summarize_runs.py",
+      "published_path": "scripts/summarize_runs.py",
+      "original_sha256": "515c2276f36b72656bd30ed721fca68c68b641b5f06462542950189d24838a5b",
+      "published_sha256": "515c2276f36b72656bd30ed721fca68c68b641b5f06462542950189d24838a5b"
+    },
+    {
+      "original_project_relative_path": "runs/extended/runs/best_structure_long_400/metrics.jsonl",
+      "published_path": "results/runs/base400/metrics.jsonl",
+      "original_sha256": "458c02ec33f5bb72a3a365e1ccc8c9c63b22f2ba16f04bf376bea7634eae5176",
+      "published_sha256": "458c02ec33f5bb72a3a365e1ccc8c9c63b22f2ba16f04bf376bea7634eae5176"
+    },
+    {
+      "original_project_relative_path": "runs/extended/runs/best_structure_long_400/best.json",
+      "published_path": "results/runs/base400/best.json",
+      "original_sha256": "d7fd3ef8721fecb8f0d33bf3903f661c4da5d2ff873c7b13d093482861618106",
+      "published_sha256": "d7fd3ef8721fecb8f0d33bf3903f661c4da5d2ff873c7b13d093482861618106"
+    },
+    {
+      "original_project_relative_path": "runs/extended/runs/best_structure_long_400/swa.json",
+      "published_path": "results/runs/base400/swa.json",
+      "original_sha256": "1deb0eadbdeed4e8c03bf3f81e7f780e320d06fcaf56b36d8cd6d0a2ebb56120",
+      "published_sha256": "1deb0eadbdeed4e8c03bf3f81e7f780e320d06fcaf56b36d8cd6d0a2ebb56120"
+    },
+    {
+      "original_project_relative_path": "runs/extended/runs/best_structure_long_400/environment.json",
+      "published_path": "results/runs/base400/environment.json",
+      "original_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b",
+      "published_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b"
+    },
+    {
+      "original_project_relative_path": "runs/error_followup/runs/error_mild_appearance_60/metrics.jsonl",
+      "published_path": "results/runs/mild60/metrics.jsonl",
+      "original_sha256": "e87197ba77479a0cb4e905865a9128bc85c072f7b7c91d857840e0f19773212f",
+      "published_sha256": "e87197ba77479a0cb4e905865a9128bc85c072f7b7c91d857840e0f19773212f"
+    },
+    {
+      "original_project_relative_path": "runs/error_followup/runs/error_mild_appearance_60/best.json",
+      "published_path": "results/runs/mild60/best.json",
+      "original_sha256": "1915653df6cab524d856cb625381c3180c7468861712f60acbb5717d77781b5f",
+      "published_sha256": "1915653df6cab524d856cb625381c3180c7468861712f60acbb5717d77781b5f"
+    },
+    {
+      "original_project_relative_path": "runs/error_followup/runs/error_mild_appearance_60/swa.json",
+      "published_path": "results/runs/mild60/swa.json",
+      "original_sha256": "335d92232332fd66a5d6d72487f4a00715e77e3d09d49177cfbd0e4ce44c24cd",
+      "published_sha256": "335d92232332fd66a5d6d72487f4a00715e77e3d09d49177cfbd0e4ce44c24cd"
+    },
+    {
+      "original_project_relative_path": "runs/error_followup/runs/error_mild_appearance_60/environment.json",
+      "published_path": "results/runs/mild60/environment.json",
+      "original_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b",
+      "published_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b"
+    },
+    {
+      "original_project_relative_path": "runs/generalization_followup/runs/robust_wide_se_full_300/metrics.jsonl",
+      "published_path": "results/runs/robust300/metrics.jsonl",
+      "original_sha256": "95f58e8b80e2bc583d0bda471b4f51737881b7f95bb3aee2bc4b0d765be2f45a",
+      "published_sha256": "95f58e8b80e2bc583d0bda471b4f51737881b7f95bb3aee2bc4b0d765be2f45a"
+    },
+    {
+      "original_project_relative_path": "runs/generalization_followup/runs/robust_wide_se_full_300/best.json",
+      "published_path": "results/runs/robust300/best.json",
+      "original_sha256": "2f98864c0d6078f39ffb499a9e2a8b433fb80a124efbf417b4bb4ef6e5058658",
+      "published_sha256": "2f98864c0d6078f39ffb499a9e2a8b433fb80a124efbf417b4bb4ef6e5058658"
+    },
+    {
+      "original_project_relative_path": "runs/generalization_followup/runs/robust_wide_se_full_300/swa.json",
+      "published_path": "results/runs/robust300/swa.json",
+      "original_sha256": "ecd4538cd8aaa15d9623fd0dbdb962a611dfcf6dca2c39fe275c97ff1aa06cf2",
+      "published_sha256": "ecd4538cd8aaa15d9623fd0dbdb962a611dfcf6dca2c39fe275c97ff1aa06cf2"
+    },
+    {
+      "original_project_relative_path": "runs/generalization_followup/runs/robust_wide_se_full_300/environment.json",
+      "published_path": "results/runs/robust300/environment.json",
+      "original_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b",
+      "published_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b"
+    },
+    {
+      "original_project_relative_path": "runs/robust_followup/runs/robust_control_60/metrics.jsonl",
+      "published_path": "results/runs/robust60/metrics.jsonl",
+      "original_sha256": "498e92b23ec32ca2d61d35506b3d00adc378e751e0d02ce455beff12cef12bb3",
+      "published_sha256": "498e92b23ec32ca2d61d35506b3d00adc378e751e0d02ce455beff12cef12bb3"
+    },
+    {
+      "original_project_relative_path": "runs/robust_followup/runs/robust_control_60/best.json",
+      "published_path": "results/runs/robust60/best.json",
+      "original_sha256": "9777db1a7a9056ca574f87a1dbde74ce80d6a9822cf575a778d9fca069477dbc",
+      "published_sha256": "9777db1a7a9056ca574f87a1dbde74ce80d6a9822cf575a778d9fca069477dbc"
+    },
+    {
+      "original_project_relative_path": "runs/robust_followup/runs/robust_control_60/swa.json",
+      "published_path": "results/runs/robust60/swa.json",
+      "original_sha256": "62f5a2757e5ace6f9255237267df086727afce400fc3958d898b2ea9226ececd",
+      "published_sha256": "62f5a2757e5ace6f9255237267df086727afce400fc3958d898b2ea9226ececd"
+    },
+    {
+      "original_project_relative_path": "runs/robust_followup/runs/robust_control_60/environment.json",
+      "published_path": "results/runs/robust60/environment.json",
+      "original_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b",
+      "published_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b"
+    },
+    {
+      "original_project_relative_path": "runs/champion_continuation_v1/runs/robust_champion_refine50/metrics.jsonl",
+      "published_path": "results/runs/robust_refine50/metrics.jsonl",
+      "original_sha256": "0d5086456e67a84ee393797a019969dbdc63fd418ba3e91164dd40540bf21458",
+      "published_sha256": "0d5086456e67a84ee393797a019969dbdc63fd418ba3e91164dd40540bf21458"
+    },
+    {
+      "original_project_relative_path": "runs/champion_continuation_v1/runs/robust_champion_refine50/best.json",
+      "published_path": "results/runs/robust_refine50/best.json",
+      "original_sha256": "e42bc5f6acae46d02e1061dbc1685d47cb87ee19402ce793b3019601e019ea20",
+      "published_sha256": "e42bc5f6acae46d02e1061dbc1685d47cb87ee19402ce793b3019601e019ea20"
+    },
+    {
+      "original_project_relative_path": "runs/champion_continuation_v1/runs/robust_champion_refine50/swa.json",
+      "published_path": "results/runs/robust_refine50/swa.json",
+      "original_sha256": "ce8e2efbb5f361d92d3596cf3559a9c69e354934935def1951f6601dee387b0b",
+      "published_sha256": "ce8e2efbb5f361d92d3596cf3559a9c69e354934935def1951f6601dee387b0b"
+    },
+    {
+      "original_project_relative_path": "runs/champion_continuation_v1/runs/robust_champion_refine50/environment.json",
+      "published_path": "results/runs/robust_refine50/environment.json",
+      "original_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b",
+      "published_sha256": "63deb449ca5ec3e675eb7af4a913976bf9e6c360f675010ed6143bec699fde0b"
+    }
+  ],
+  "configuration_mapping": [
+    {
+      "published_path": "configs/base400.json",
+      "original_project_relative_path": "runs/extended/runs/best_structure_long_400/config.json",
+      "original_sha256": "4cf48286a6c1ed40cad97c1ed5789618795d198858daa84f23abed6ba7c43234",
+      "published_sha256": "d64b98e1e014498510ad4edef94c33c0006734815e9b4f8e60378f949b9b97b3",
+      "changes": [
+        {
+          "key": "dataset.root",
+          "before": "../../work/competition",
+          "after": "data/competition"
+        }
+      ],
+      "all_other_values_equal": true
+    },
+    {
+      "published_path": "configs/mild60.json",
+      "original_project_relative_path": "runs/error_followup/runs/error_mild_appearance_60/config.json",
+      "original_sha256": "55d0900489863a8b3dac195a6ceb85140fdcb0ff792d6c59c9194dc57242f1d8",
+      "published_sha256": "88d215f17e0b044f1d981b1b4a048e990773d17b7fdd9cbdd424c041e485caca",
+      "changes": [
+        {
+          "key": "dataset.root",
+          "before": "../../work/competition",
+          "after": "data/competition"
+        }
+      ],
+      "all_other_values_equal": true
+    },
+    {
+      "published_path": "configs/robust300.json",
+      "original_project_relative_path": "runs/generalization_followup/runs/robust_wide_se_full_300/config.json",
+      "original_sha256": "fb22bae03b3d5accf80b65c1fb75feaf8487f1f948225d8ecca018b220c277e6",
+      "published_sha256": "d81803910464c678b1893a40f6092d96f42f96fd8b37ddb18f8e53dd5e1b7a77",
+      "changes": [
+        {
+          "key": "dataset.root",
+          "before": "../../work/competition",
+          "after": "data/competition"
+        }
+      ],
+      "all_other_values_equal": true
+    },
+    {
+      "published_path": "configs/robust60.json",
+      "original_project_relative_path": "runs/robust_followup/runs/robust_control_60/config.json",
+      "original_sha256": "d110046071df1035875a76195d3721526a5740074bdc241aa71c4eeb9eaa5582",
+      "published_sha256": "0244a3a0aa428cdc3f0e1f5b422657cc610d16ce39cbba7995ca481ecd23c5cc",
+      "changes": [
+        {
+          "key": "dataset.root",
+          "before": "../../work/competition",
+          "after": "data/competition"
+        }
+      ],
+      "all_other_values_equal": true
+    },
+    {
+      "published_path": "configs/robust_refine50.json",
+      "original_project_relative_path": "runs/champion_continuation_v1/runs/robust_champion_refine50/config.json",
+      "original_sha256": "d6601652da4ed2acb690494bb693bd60f16bb40ae683847dc3a69f3462b6d327",
+      "published_sha256": "5b7150e954957538b4fb6f194b37fb825219e9f6436bd94dd5fc94f70e426a1a",
+      "changes": [
+        {
+          "key": "dataset.root",
+          "before": "../../work/competition",
+          "after": "data/competition"
+        }
+      ],
+      "all_other_values_equal": true
+    }
+  ],
+  "run_mapping": [
+    {
+      "id": "base400",
+      "original_project_relative_path": "runs/extended/runs/best_structure_long_400",
+      "configured_epochs": 400,
+      "initialization": "random"
+    },
+    {
+      "id": "mild60",
+      "original_project_relative_path": "runs/error_followup/runs/error_mild_appearance_60",
+      "configured_epochs": 60,
+      "initialization": {
+        "sha256": "7e43ffafecb60876dcd82e105853fbb377715524c1e93692de7327a6e1648e78",
+        "epoch": 396,
+        "trained_epochs_total": 396,
+        "selected_source": "model",
+        "parameters": 4480474,
+        "source_checkpoint_project_relative": "runs/extended/runs/best_structure_long_400/best.pt"
+      }
+    },
+    {
+      "id": "robust300",
+      "original_project_relative_path": "runs/generalization_followup/runs/robust_wide_se_full_300",
+      "configured_epochs": 300,
+      "initialization": "random"
+    },
+    {
+      "id": "robust60",
+      "original_project_relative_path": "runs/robust_followup/runs/robust_control_60",
+      "configured_epochs": 60,
+      "initialization": {
+        "sha256": "afc8810a65246e3d0858de7c744ca7c1ce1b197a4db9b39b55aa9da797e4c5f1",
+        "epoch": 285,
+        "trained_epochs_total": 285,
+        "selected_source": "ema",
+        "parameters": 4948626,
+        "source_checkpoint_project_relative": "runs/generalization_followup/runs/robust_wide_se_full_300/best.pt"
+      }
+    },
+    {
+      "id": "robust_refine50",
+      "original_project_relative_path": "runs/champion_continuation_v1/runs/robust_champion_refine50",
+      "configured_epochs": 50,
+      "initialization": {
+        "sha256": "415cf7e902972f269dc7b385891f6443701525703df34212752a3ae959a4c9b1",
+        "epoch": 60,
+        "trained_epochs_total": 345,
+        "selected_source": "swa",
+        "parameters": 4948626,
+        "source_checkpoint_project_relative": "runs/robust_followup/runs/robust_control_60/swa.pt"
+      }
+    }
+  ]
+}

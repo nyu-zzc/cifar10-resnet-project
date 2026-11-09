@@ -1,0 +1,63 @@
+{
+  "scope": "User-screenshot observations; local CSV identity verified; uploaded bytes not independently retrieved",
+  "observed_date": "2026-11-09",
+  "submissions": [
+    {
+      "model": "Mild appearance",
+      "local_percent": 97.36,
+      "public_percent": 89.4,
+      "private_percent": 86.1,
+      "selected_for_final": true,
+      "parameters": 4480474,
+      "weight_lineage_epochs": 456,
+      "branch_compute_epochs": 460
+    },
+    {
+      "model": "Less mixing",
+      "local_percent": 97.42,
+      "public_percent": 88.0,
+      "private_percent": 86.7,
+      "selected_for_final": false,
+      "parameters": 4948626,
+      "weight_lineage_epochs": 345,
+      "branch_compute_epochs": 360
+    },
+    {
+      "model": "Robust control",
+      "local_percent": 97.39999999999999,
+      "public_percent": 88.6,
+      "private_percent": 86.3,
+      "selected_for_final": true,
+      "parameters": 4948626,
+      "weight_lineage_epochs": 345,
+      "branch_compute_epochs": 360
+    },
+    {
+      "model": "Robust refinement",
+      "local_percent": 97.48,
+      "public_percent": 88.6,
+      "private_percent": 87.3,
+      "selected_for_final": false,
+      "parameters": 4948626,
+      "weight_lineage_epochs": 374,
+      "branch_compute_epochs": 410
+    },
+    {
+      "model": "Local champion",
+      "local_percent": 97.52,
+      "public_percent": 88.4,
+      "private_percent": 85.5,
+      "selected_for_final": false,
+      "parameters": 4480474,
+      "weight_lineage_epochs": 434,
+      "branch_compute_epochs": 460
+    }
+  ],
+  "highest_public_accuracy": 0.894,
+  "highest_private_observed_accuracy": 0.873,
+  "highest_private_observed_selected": false,
+  "selected_final_private_accuracy": 0.863,
+  "selected_final_model": "Robust control",
+  "selection_rule": "Highest private score among the two selected submissions",
+  "training_or_tuning_used_revealed_private_results": false
+}

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cifar10-budget-resnet"
+version = "1.0.0"
+description = "Portable reproduction of a parameter-budgeted CIFAR-10 course project"
+requires-python = ">=3.10"
+dependencies = ["torch==2.7.1", "torchvision==0.22.1", "numpy>=1.26", "Pillow>=10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

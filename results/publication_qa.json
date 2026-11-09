@@ -1,0 +1,476 @@
+{
+  "status": "passed",
+  "archive_configs_resolved_and_parameter_counted": 79,
+  "archive_source_variants": 6,
+  "parameters_max": 4948626,
+  "archive_model_checks": [
+    {
+      "id": "architecture_completion_v1/shortcut_kernel3_200",
+      "parameters": 4738522,
+      "config_resolved": true
+    },
+    {
+      "id": "architecture_completion_v1/pool_size4_200",
+      "parameters": 4487194,
+      "config_resolved": true
+    },
+    {
+      "id": "architecture_confirmation_v1/kernel3_refine50",
+      "parameters": 4738522,
+      "config_resolved": true
+    },
+    {
+      "id": "pooling_confirmation_v1/pool4_refine50",
+      "parameters": 4487194,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/strong_actual",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_base",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_no_ema",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_no_mix",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_no_randaugment",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_no_smoothing",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_se",
+      "parameters": 4614146,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_drop_path",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_dropout",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_sam",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_swa",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_adamw",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_autoaugment",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_mixup_only",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_cutmix_only",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_cutout",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_random_erasing",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_wrn16",
+      "parameters": 4289754,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/screen_wrn22",
+      "parameters": 4298970,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/best_variant_full",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "campaign/distillation_full",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_base",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_blocks_front",
+      "parameters": 2785690,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_blocks_back",
+      "parameters": 4539354,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_blocks_middle",
+      "parameters": 3972218,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_channels_custom",
+      "parameters": 4127578,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_kernel5_all",
+      "parameters": 4568646,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_kernel5_early",
+      "parameters": 4846042,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_shortcut_avgpool",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_shortcut_zero_pad",
+      "parameters": 4448218,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_pool_max",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_pool_avgmax",
+      "parameters": 4482714,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_depth40",
+      "parameters": 4235210,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_adam",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_rmsprop",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_adamw",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_linear_schedule",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_multistep_schedule",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_batch64",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_batch256",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_weight_decay_low",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/coverage_weight_decay_high",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/promoted_01_coverage_channels_custom",
+      "parameters": 4127578,
+      "config_resolved": true
+    },
+    {
+      "id": "coverage_all_methods/promoted_02_coverage_pool_avgmax",
+      "parameters": 4482714,
+      "config_resolved": true
+    },
+    {
+      "id": "error_followup/error_control_60",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "error_followup/error_less_mixing_60",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "error_followup/error_mild_appearance_60",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "extended/refine_best_100",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "extended/se_full_200",
+      "parameters": 4614146,
+      "config_resolved": true
+    },
+    {
+      "id": "extended/wide_se_full_300",
+      "parameters": 4948626,
+      "config_resolved": true
+    },
+    {
+      "id": "extended/se_mixup_full_200",
+      "parameters": 4614146,
+      "config_resolved": true
+    },
+    {
+      "id": "extended/refine_mild_ra_100",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "extended/best_structure_long_400",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "extended/best_structure_seed143_300",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "extended/confirm_best_100",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "generalization_followup/photometric_refine_best_100",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "generalization_followup/sam_full_200",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "generalization_followup/robust_wrn_full_300",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "generalization_followup/robust_wide_se_full_300",
+      "parameters": 4948626,
+      "config_resolved": true
+    },
+    {
+      "id": "generalization_followup/confirm_generalization_best_100",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "robust_followup/robust_control_60",
+      "parameters": 4948626,
+      "config_resolved": true
+    },
+    {
+      "id": "robust_followup/robust_less_mixing_60",
+      "parameters": 4948626,
+      "config_resolved": true
+    },
+    {
+      "id": "champion_continuation_v1/local_champion_refine50",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "champion_continuation_v1/robust_champion_refine50",
+      "parameters": 4948626,
+      "config_resolved": true
+    },
+    {
+      "id": "error_driven_refinement_v1/local_blur005_50",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "error_driven_seed_confirmation_v1/local_control_seed43_50",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "error_driven_seed_confirmation_v1/local_blur005_seed43_50",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "label_smoothing_refinement_v1/local_ls0_50",
+      "parameters": 4480474,
+      "config_resolved": true
+    },
+    {
+      "id": "efficient_mixup_confirmation_v1/mixup_refine50",
+      "parameters": 4697742,
+      "config_resolved": true
+    },
+    {
+      "id": "efficient_mixup_v1/mixup_alpha02_200",
+      "parameters": 4697742,
+      "config_resolved": true
+    },
+    {
+      "id": "efficient_resnets_v1/author_recipe_200",
+      "parameters": 4697742,
+      "config_resolved": true
+    },
+    {
+      "id": "four_stage_v1/four_stage_400",
+      "parameters": 4496043,
+      "config_resolved": true
+    },
+    {
+      "id": "research_augmix_v1/augmix_robust_matched_60",
+      "parameters": 4948626,
+      "config_resolved": true
+    },
+    {
+      "id": "research_seed_confirmation_v1/ra_seed43_60",
+      "parameters": 4948626,
+      "config_resolved": true
+    },
+    {
+      "id": "research_seed_confirmation_v1/augmix_seed43_60",
+      "parameters": 4948626,
+      "config_resolved": true
+    }
+  ],
+  "cli_help_checks": [
+    {
+      "command": "python -m dlend.train --help",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m dlend.predict --help",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m dlend.evaluate --help",
+      "exit_code": 0
+    },
+    {
+      "command": "python scripts/prepare_competition.py --help",
+      "exit_code": 0
+    },
+    {
+      "command": "python scripts/train_from_swa.py --help",
+      "exit_code": 0
+    },
+    {
+      "command": "python scripts/verify_package.py --help",
+      "exit_code": 0
+    }
+  ],
+  "actual_source_admission_checks": [
+    {
+      "source_project_relative": "runs/extended/runs/best_structure_long_400/best.pt",
+      "sha256": "7e43ffafecb60876dcd82e105853fbb377715524c1e93692de7327a6e1648e78",
+      "selected_source": "model",
+      "epoch": 396,
+      "passed": true
+    },
+    {
+      "source_project_relative": "runs/generalization_followup/runs/robust_wide_se_full_300/best.pt",
+      "sha256": "afc8810a65246e3d0858de7c744ca7c1ce1b197a4db9b39b55aa9da797e4c5f1",
+      "selected_source": "ema",
+      "epoch": 285,
+      "passed": true
+    },
+    {
+      "source_project_relative": "runs/robust_followup/runs/robust_control_60/swa.pt",
+      "sha256": "415cf7e902972f269dc7b385891f6443701525703df34212752a3ae959a4c9b1",
+      "selected_source": "swa",
+      "epoch": 60,
+      "passed": true
+    }
+  ],
+  "wrong_source_hash_rejected": true,
+  "wrong_split_rejected": true,
+  "python_syntax_files": 57,
+  "publishable_files_scanned": 376,
+  "private_path_or_credential_pattern_matches": [],
+  "data_or_weights_bundled": false,
+  "no_training_or_competition_inference": true,
+  "scope_note": "Actual original checkpoint admission loaded trusted weights on CPU without a forward pass. Core synthetic forward is recorded separately. Archive counts/configs and CLI syntax verified; no historical training was rerun.",
+  "inference_cpu_wrapper": {
+    "evaluate_cli_help_exit": 0,
+    "predict_cli_help_exit": 0,
+    "device": "cpu",
+    "threads": 2,
+    "checkpoint_runtime_threads_override": true,
+    "scope": "CLI parsing verified; source inspected to confirm original evaluator receives CPU and config threads2. No competition inference performed."
+  },
+  "curves_visual_review": {
+    "validation_curves": "passed",
+    "loss_curves": "passed",
+    "all_870_core_phase_epochs_shown": true,
+    "note": "Loss and accuracy scope labels retained; no smoothing or fabricated repeats."
+  },
+  "final_private_path_scan_matches": [],
+  "final_publishable_files_scanned": 378
+}

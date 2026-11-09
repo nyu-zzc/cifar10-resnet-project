@@ -1,0 +1,68 @@
+{
+  "models": [
+    {
+      "id": "mild60",
+      "role": "public_best_selected",
+      "artifact": "swa.pt",
+      "epoch": 60,
+      "selected_source": "swa",
+      "checkpoint_sha256": "a34841cdf1dab4a60096539d38427026e5e67596e8668259741738ce122b00aa",
+      "parameters": 4480474,
+      "validation_fp32_cpu": {
+        "none": 0.9706,
+        "flip": 0.9736
+      },
+      "validation_count": 5000,
+      "tta": "flip",
+      "public_accuracy": 0.894,
+      "private_accuracy": 0.861,
+      "selected_checkbox": true,
+      "source_summary_project_relative": "analysis/completed_artifact_error_mild_appearance_swa_20261105/summary.json",
+      "source_summary_sha256": "7a5a227d052c80db7145702bbce7f1433bd3ae3af03a1c8319f894627c95af59"
+    },
+    {
+      "id": "robust60",
+      "role": "selected_final",
+      "artifact": "swa.pt",
+      "epoch": 60,
+      "selected_source": "swa",
+      "checkpoint_sha256": "415cf7e902972f269dc7b385891f6443701525703df34212752a3ae959a4c9b1",
+      "parameters": 4948626,
+      "validation_fp32_cpu": {
+        "none": 0.9696,
+        "flip": 0.974
+      },
+      "validation_count": 5000,
+      "tta": "flip",
+      "public_accuracy": 0.886,
+      "private_accuracy": 0.863,
+      "selected_checkbox": true,
+      "source_summary_project_relative": "analysis/completed_artifact_robust_control_swa_20261105/summary.json",
+      "source_summary_sha256": "2ec902c2629b800336c2afa54b6e38ee395ad30132ef9fe4bd5e226504295b49"
+    },
+    {
+      "id": "robust_refine50",
+      "role": "highest_private_visible_not_selected",
+      "artifact": "best.pt",
+      "epoch": 29,
+      "selected_source": "ema",
+      "checkpoint_sha256": "13d114109a422a40105a15f26608add2ea8b1182c2a7ca4ce0138e9286b93ee9",
+      "parameters": 4948626,
+      "validation_fp32_cpu": {
+        "none": 0.9732,
+        "flip": 0.9748
+      },
+      "validation_count": 5000,
+      "tta": "flip",
+      "public_accuracy": 0.886,
+      "private_accuracy": 0.873,
+      "selected_checkbox": false,
+      "source_summary_project_relative": "analysis/champion_continuation_robust_best_20261106/summary.json",
+      "source_summary_sha256": "f0b8b2eedcaf8f7be0c308a7b62a3715d65aad7f29c5aec183f49ded5162a795"
+    }
+  ],
+  "official_evidence_scope": "User-provided submission-page screenshot, 2026-11-09. Exact filename and visible scores matched to local CSV records; uploaded bytes were not independently retrieved.",
+  "selected_final_rule": "Among the checked submissions, the higher private accuracy is 0.863. The visible unselected 0.873 is not the selected final score.",
+  "accuracy_scope": "Validation is a reused fixed 5000-image split; public and private are competition scores, not this split.",
+  "independence_limit": "No confidence or causal claim from selection across many models. No new training or inference used to build this package."
+}

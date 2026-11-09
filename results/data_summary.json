@@ -1,0 +1,39 @@
+{
+  "training_archive_images": 50000,
+  "training_size": 45000,
+  "validation_size": 5000,
+  "hidden_test_images": 2000,
+  "classes": 10,
+  "training_per_class": 4500,
+  "validation_per_class": 500,
+  "dataset_seed": 42,
+  "class_encoding": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "training_fingerprint": "cb31a9b94e92f5bb8c8c783be973fb98bc719d7f42e288f0b913fc2fc3d138f0",
+  "split_fingerprint": "6c68ccc5b012ad6391cf481d63316aa80a4c9e1176ffe098af8fdefd13ed9f9f",
+  "external_training_data": false,
+  "external_pretrained_weights": false,
+  "distribution": "Data are not included. Obtain the course competition archive through its official access process."
+}
