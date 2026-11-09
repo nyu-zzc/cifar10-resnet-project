@@ -1,0 +1,136 @@
+{
+  "status": "verified",
+  "extraction_script": "prepare_report_figure_data_20261109.py",
+  "extraction_script_sha256": "63a213d42756eac87ebe0979a89540aa2ce0f5b6bcde4e6ca99807411a1885b8",
+  "sources_root": "Sibling project directory: dlend-resnet",
+  "sources": {
+    "analysis/report_preparation_20261109/official_feedback.json": {
+      "sha256": "2010e0ad52fac736258b53121b53b3a47c148053e02b009af880c5bd90a3f4b1",
+      "purpose": "User-screenshot score and selected-status verification"
+    },
+    "runs/extended/runs/best_structure_long_400/metrics.jsonl": {
+      "sha256": "458c02ec33f5bb72a3a365e1ccc8c9c63b22f2ba16f04bf376bea7634eae5176",
+      "purpose": "All raw/EMA validation learning-curve observations"
+    },
+    "runs/extended/runs/best_structure_long_400/config.json": {
+      "sha256": "4cf48286a6c1ed40cad97c1ed5789618795d198858daa84f23abed6ba7c43234",
+      "purpose": "Training validation precision and run budget"
+    },
+    "runs/four_stage_v1/runs/four_stage_400/metrics.jsonl": {
+      "sha256": "4672e864418dcbfdc8190c750272995ed02feed0a4d2c3bf49e741f0a86184c8",
+      "purpose": "All raw/EMA validation learning-curve observations"
+    },
+    "runs/four_stage_v1/runs/four_stage_400/config.json": {
+      "sha256": "bca61f201bee1d1abd588efccfc3f0d2b96165888e7c24a723421e71c8f9eb86",
+      "purpose": "Training validation precision and run budget"
+    },
+    "runs/error_followup/runs/error_control_60/metrics.jsonl": {
+      "sha256": "8db421acd8101f4a628c9f07e2679ce933a8ebdc28544ca16cc155ce1aef08f1",
+      "purpose": "All raw/EMA validation learning-curve observations"
+    },
+    "runs/error_followup/runs/error_control_60/config.json": {
+      "sha256": "e98ffc39ad353ef5290a8cba668003087c3a7db39c4e191c1597f8085a5bf33b",
+      "purpose": "Training validation precision and run budget"
+    },
+    "runs/error_followup/runs/error_mild_appearance_60/metrics.jsonl": {
+      "sha256": "e87197ba77479a0cb4e905865a9128bc85c072f7b7c91d857840e0f19773212f",
+      "purpose": "All raw/EMA validation learning-curve observations"
+    },
+    "runs/error_followup/runs/error_mild_appearance_60/config.json": {
+      "sha256": "55d0900489863a8b3dac195a6ceb85140fdcb0ff792d6c59c9194dc57242f1d8",
+      "purpose": "Training validation precision and run budget"
+    },
+    "analysis/error_analysis_20261105/provenance.json": {
+      "sha256": "73c7eb9e2a5651075a768310c3099085d8589ad0a546890ae5f2378e6b741e8d",
+      "purpose": "Architecture branch fixed-validation CPU FP32 flip result"
+    },
+    "analysis/completed_candidate_error_control_20261105/audit.json": {
+      "sha256": "cdc8ade17d327640225d8043894ba5eef3570a82ae2f9cd2f9b0778d8e425de9",
+      "purpose": "Per-class errors and same1000 clean/blur proxy"
+    },
+    "analysis/architecture_completion_kernel3_swa_20261106/audit.json": {
+      "sha256": "ed2a63c88cfae19d002a3fc32cd74ccaceb535be8bf2779113cab6c08788a937",
+      "purpose": "Architecture branch fixed-validation CPU FP32 flip result"
+    },
+    "analysis/architecture_confirmation_kernel3_swa_20261106/audit.json": {
+      "sha256": "6a23bb0bd98f20258467afea855843514b2dfa1efc51d50cbed57277f9fc5e29",
+      "purpose": "Architecture branch fixed-validation CPU FP32 flip result"
+    },
+    "analysis/architecture_completion_pool4_swa_20261106/audit.json": {
+      "sha256": "a56a47afd81d91aceedbef05721251a18e2954adcbcd1969485a26a26bbd238b",
+      "purpose": "Architecture branch fixed-validation CPU FP32 flip result"
+    },
+    "analysis/pooling_confirmation_pool4_swa_20261106/audit.json": {
+      "sha256": "536f58e39f9be44bf31edbda753aef924d7a37467e2490a2c1343cc4b6ce8a85",
+      "purpose": "Architecture branch fixed-validation CPU FP32 flip result"
+    },
+    "analysis/four_stage_best_20261106/audit.json": {
+      "sha256": "bb11a0920419309bdebe30fcadf0245b3c5594dd4c78a6f4e86f07e6e455172e",
+      "purpose": "Architecture branch fixed-validation CPU FP32 flip result"
+    },
+    "analysis/error_analysis_20261105/dataset.npz": {
+      "sha256": "692cf3d95c600982b784018456380c514da221e28c7b9635297533c62271c586",
+      "purpose": "Fixed5000 validation targets and IDs; no new inference"
+    },
+    "analysis/completed_candidate_error_control_20261105/probabilities.npz": {
+      "sha256": "94dbbc7290dbaa7c3c30f4cf827fc54c026c92f9bcd5d85be11b1d54739f36aa",
+      "purpose": "Already-computed CPU FP32 original/flip probabilities"
+    },
+    "analysis/completed_artifact_error_mild_appearance_swa_20261105/audit.json": {
+      "sha256": "3e4bf542bb3d4ad66ac23e541392cead731aa186075b2807d0a282e1dcd0e706",
+      "purpose": "Per-class errors and same1000 clean/blur proxy"
+    },
+    "analysis/completed_artifact_error_mild_appearance_swa_20261105/probabilities.npz": {
+      "sha256": "bbd4d7a180459709498bd7b9fb730dd3921ab5eb6eed11969ecc4ea6258a6d17",
+      "purpose": "Already-computed CPU FP32 original/flip probabilities"
+    },
+    "analysis/completed_artifact_robust_control_swa_20261105/audit.json": {
+      "sha256": "545b88732d2bfa58732780e09243b708a60d7efa3eeddc79517f80d9cd0e0af8",
+      "purpose": "Per-class errors and same1000 clean/blur proxy"
+    },
+    "analysis/completed_artifact_robust_control_swa_20261105/probabilities.npz": {
+      "sha256": "aaa98add2a2eb0d4b620384c17822cf3db80762102481555d03872c0b8951794",
+      "purpose": "Already-computed CPU FP32 original/flip probabilities"
+    },
+    "analysis/champion_continuation_robust_best_20261106/audit.json": {
+      "sha256": "d71d38655931b44d20da4d2a64fe83e8a5881083c39d8ccbe61cd1f7b1583c3d",
+      "purpose": "Per-class errors and same1000 clean/blur proxy"
+    },
+    "analysis/champion_continuation_robust_best_20261106/probabilities.npz": {
+      "sha256": "0e11dfe47e231873769d706f020593974681aaab4effdd6d65216dc870502272",
+      "purpose": "Already-computed CPU FP32 original/flip probabilities"
+    }
+  },
+  "aggregated_tables": {
+    "figure_1_training_curves.csv": {
+      "sha256": "95d19dab9a042d8552b6fdad4a61b49b86bba5a3135e3e7d19ffadd5d961c253",
+      "rows": 1840
+    },
+    "figure_2_official_scores.csv": {
+      "sha256": "b9ce3a68d484fc53bbebb66c701b4a2dcdca56940feebccaa7457823b0085e92",
+      "rows": 5
+    },
+    "figure_3_architecture_scores.csv": {
+      "sha256": "8f7ec1f0f4ffa7ee39ba17acfce7c2e018cb6e2561b8862c4655efe4fd46fb64",
+      "rows": 7
+    },
+    "figure_4_class_errors.csv": {
+      "sha256": "a54258e446c90458071a3d9079fbea1a6a30db3c8dbe4a0ca647a295b0a8aca3",
+      "rows": 40
+    },
+    "figure_4_proxy_scores.csv": {
+      "sha256": "94cf1c3887f81d6e5f9de2cd5b0df5ff21d846f009719c27c223f90c25f94330",
+      "rows": 8
+    }
+  },
+  "exclusions": [
+    {
+      "source": "Screenshot",
+      "before_rows": 6,
+      "after_unique_rows": 5,
+      "rule": "Two identical robust-refinement filename/score rows represent the same local CSV/model; preserve occurrence information in official feedback, plot once."
+    }
+  ],
+  "sampling": "No log or validation-example subsampling for curves/class errors; proxy uses the pre-existing same1000 stratified subset.",
+  "model_forward_calls": 0
+}

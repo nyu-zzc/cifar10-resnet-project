@@ -1,0 +1,6 @@
+model,local_percent,public_percent,private_percent,selected_for_final,parameters,weight_lineage_epochs,branch_compute_epochs
+Mild appearance,97.36,89.4,86.1,True,4480474,456,460
+Less mixing,97.42,88.0,86.7,False,4948626,345,360
+Robust control,97.39999999999999,88.6,86.3,True,4948626,345,360
+Robust refinement,97.48,88.6,87.3,False,4948626,374,410
+Local champion,97.52,88.4,85.5,False,4480474,434,460

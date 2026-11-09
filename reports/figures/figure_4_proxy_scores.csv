@@ -1,0 +1,9 @@
+model,condition,accuracy_percent,n,tta,kernel,sigma
+Local champion,Clean,97.8,1000,none,none,0
+Local champion,Mild blur,93.60000000000001,1000,none,3x3,0.6
+Mild appearance,Clean,97.39999999999999,1000,none,none,0
+Mild appearance,Mild blur,96.2,1000,none,3x3,0.6
+Robust control,Clean,97.2,1000,none,none,0
+Robust control,Mild blur,97.0,1000,none,3x3,0.6
+Robust refinement,Clean,97.6,1000,none,none,0
+Robust refinement,Mild blur,96.8,1000,none,3x3,0.6

@@ -1,0 +1,8 @@
+model,artifact,branch_compute_epochs,family,accuracy_percent,parameters,validation_n
+Three-stage reference,best,400,Original,97.39999999999999,4480474,5000
+Local champion,best,460,Original,97.52,4480474,5000
+3x3 shortcut,SWA,200,Kernel3,96.94,4738522,5000
+3x3 shortcut +50,SWA,250,Kernel3,97.16,4738522,5000
+2x2 pooled head,SWA,200,Pool4,97.1,4487194,5000
+2x2 pooled head +50,SWA,250,Pool4,97.16,4487194,5000
+Four-stage,best,400,Four-stage,96.8,4496043,5000
