@@ -1,16 +1,30 @@
-# Final report and editable materials
+# Project report and editable files
 
-The delivered PDF and Word document are the reviewed eight-page versions. The PDF is the fixed-layout submission artifact; DOCX, Markdown, HTML and report_content.json are editable working sources. The Word document contains editable text/tables and embedded figures, while each figure has an editable SVG and reproducible aggregate source table in figures/.
+The report tells the story of the project: how I chose the residual-network structure, which training changes helped, and how the validation results compared with Kaggle.
 
-- `Zicheng_Zhou_Deep_Learning_Project_1_Report.pdf`: final eight-page report.
-- `Zicheng_Zhou_Report_Editable.docx`: reviewed editable Word version.
-- `manuscript_editable.md` / `.html`: editable text and figure links.
-- `report_content.json`: structured content/layout specification.
-- `build_report.py`: portable ReportLab rebuild, writing to `rebuilt/` by default.
-- `figures/`: four SVG/PDF/PNG figures, five aggregate CSVs, provenance hashes and portable `plot.py`.
+- [PDF report](Zicheng_Zhou_Deep_Learning_Project_1_Report.pdf): the current eight-page English report.
+- [Word document](Zicheng_Zhou_Report_Editable.docx): editable text, tables, and embedded figures.
+- [Markdown manuscript](manuscript_editable.md) and [HTML manuscript](manuscript_editable.html): convenient text versions.
+- [Text without embedded figures](../稿件纯文本.md): the manuscript with figure captions kept in place.
+- [Figures](figures/): PNG, PDF, and editable SVG files, together with the plotting data.
+- [Structured manuscript](report_content.json): section text and layout settings for the report builder.
 
-Install `requirements-report.txt`, then run `python build_report.py`. Windows uses locally installed Times New Roman fonts. Other systems must supply a directory containing licensed times.ttf, timesbd.ttf and timesi.ttf using `--font-dir`. Font files are not distributed. Rebuilds include layout overflow checks; inspect all pages again after edits and keep the course's eight-page maximum. PDF creation metadata can change between rebuilds. Rebuilding does not regenerate the Word file; edit the supplied DOCX directly and check its pagination in Word.
+The current PDF and Word files follow the version reviewed on November 9. The main results are 97.52% local validation accuracy, 89.40% public accuracy, and 86.30% for the final selected private score. The results table also includes the refined robust candidate's 87.30% private score.
 
-The HTML uses local relative figure links. Browser contenteditable changes are temporary unless saved; Markdown, Word or report_content.json are safer sources for persistent editing. The original final files remain unchanged when using the default rebuild output directory.
+## Editing the report
 
-No competition images, labels, per-image predictions, account screenshots, model weights or private filesystem paths are included. All official score identities and limitations remain as stated in the report: public maximum89.4%, selected-final private86.3%, and visible unselected private maximum87.3%.
+For ordinary revisions, edit the Word document and export it as PDF. Check the page count after editing; the course limit is eight pages including figures, tables, and references.
+
+To work with the structured text, install `requirements-report.txt` and run:
+
+```powershell
+python build_report.py
+```
+
+The builder writes to `rebuilt/`. It generates a PDF, Markdown, HTML, and a layout check. Word edits and `report_content.json` are separate editing routes, so update the version you intend to use.
+
+The builder uses Times New Roman on Windows. On other systems, pass `--font-dir` with a directory containing `times.ttf`, `timesbd.ttf`, and `timesi.ttf`.
+
+## Editing the figures
+
+Each figure has an SVG for direct editing and an aggregate CSV for plotting. See [the figure guide](figures/README_zh.md) for file names and commands. Keep the manuscript's figure captions with the corresponding images when moving Markdown or HTML files.

@@ -1,18 +1,6 @@
 {
-  "fig1_training_curves": {
-    "title": "Training dynamics and late-stage refinement.",
-    "caption": "(a) Raw and EMA validation accuracy for the three-stage reference and the four-stage model across all 400 training epochs; inset repeats the final 100 epochs at expanded scale. (b) Matched 60-epoch control and mild-appearance refinement. Curves are unsmoothed trainer BF16 evaluations without test-time augmentation, not deployment scores. Each curve is one run; late fluctuations do not establish convergence."
-  },
-  "fig2_official_scores": {
-    "title": "Local, public and private rankings differ.",
-    "caption": "Scores for five unique submissions: local fixed-validation FP32 flip accuracy and screenshot-observed public/private accuracy. Outlined rows and outlined markers identify the two submissions selected for final evaluation. The selected final private score is 86.3% (robust control); the 87.3% private maximum belongs to an unselected robust-refinement submission. The duplicate screenshot row for that model is plotted once."
-  },
-  "fig3_architecture_comparison": {
-    "title": "Structural variants under recorded training budgets.",
-    "caption": "CPU FP32 horizontal-flip accuracy on the same 5,000 validation images (2 threads, batch 64). Labels identify selected artifacts and total branch-compute epochs, including source runs. The dotted line marks the 97.52% local champion. Budgets, channel layouts and selected artifact types differ, so the plot is descriptive rather than a causal comparison of a single architectural factor."
-  },
-  "fig4_errors_and_robustness": {
-    "title": "Class-specific errors and a fixed blur proxy.",
-    "caption": "(a) Error counts with FP32 horizontal-flip inference, with 500 examples per class. (b) Original and mildly blurred accuracy without TTA on the same stratified 1,000-image subset (100 per class); blur uses a 3-by-3 Gaussian kernel with sigma 0.6. The proxy is descriptive and does not reveal hidden test labels or establish the cause of competition performance."
-  }
+  "fig1_training_curves": "Figure 1. Validation accuracy during training. The plots show raw and EMA weights for the 400-epoch architecture comparison and the matched appearance-augmentation continuations.",
+  "fig3_architecture_comparison": "Figure 2. Validation accuracy with CPU FP32 and flip inference. The original WRN and the four-stage model both received 400 epochs; the local champion includes an additional continuation stage.",
+  "fig4_errors_and_robustness": "Figure 3. Error distribution and sensitivity to blur. The right panel compares original and blurred versions of the same 1,000 validation images.",
+  "fig2_official_scores": "Figure 4. Local validation, public leaderboard, and private leaderboard accuracy for the final candidates. Outlined rows mark the two selected submissions."
 }

@@ -1,7 +1,6 @@
 """Execute notebook cells sequentially using IPython; no kernel server required.
 
-This is an explicit execution harness, not a claim to have run nbclient.
-The notebook contains only source/log inspection, CPU smoke and plots.
+Captures the model checks, recorded results, and plots in the notebook.
 """
 from __future__ import annotations
 
@@ -38,7 +37,7 @@ def main():
         for rich in captured.outputs:
             cell.outputs.append(nbformat.v4.new_output('display_data', data=rich.data, metadata=rich.metadata))
         print(f'Passed code cell {count}', flush=True)
-    notebook.metadata['execution_note'] = 'Executed with scripts/execute_notebook.py: sequential IPython code-cell execution, not nbclient. No training or competition-image inference.'
+    notebook.metadata['execution_note'] = 'Executed with scripts/execute_notebook.py using sequential IPython cells: CPU model checks, saved results, and training-log plots.'
     nbformat.validate(notebook)
     nbformat.write(notebook, path)
     result = {'status': 'passed', 'method': 'sequential_ipython_cell_execution', 'python': sys.version.split()[0],

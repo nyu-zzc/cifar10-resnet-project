@@ -1,10 +1,21 @@
-# Full experimental configuration and source archive
+# Experiment archive
 
-`inventory.json` maps all **79 completed tasks / 7,810 epochs** to the complete runtime configuration, original aggregate per-epoch logs, model parameter count, initialization dependency and exact source variant. Only dataset/checkpoint path strings are relocated; numerical configuration values remain unchanged. Original and published hashes are listed separately when paths changed. No sample image, label array, prediction row or weight file is distributed.
+This directory contains the **79 experiments and 7,810 training epochs** behind the report: 39 screening runs, 18 full training runs, and 22 continuations.
 
-Each entry identifies its `pythonpath`. The main six queues use the base `src`; later research branches used isolated package copies. Five source snapshots are bundled under `source_variants/`: architecture completion, single-view AugMix, champion continuation, Efficient ResNets, and four-stage WRN. Source files are byte-identical copies with hashes. Configuration values alone do not identify the implementation; always use the entry's module variant.
+Start with [inventory.json](inventory.json). Each entry identifies the configuration, aggregate per-epoch log, parameter count, starting checkpoint, and Python source variant for that run. Paths are arranged for use from the repository root.
 
-Example for the from-scratch K3 shortcut experiment (PowerShell, run from repository root):
+## Finding an experiment
+
+- `configs/` contains the complete runtime configurations.
+- The inventory links each configuration to its recorded log and original run directory.
+- `source_variants/` holds the isolated implementations used for architecture completion, AugMix, champion continuation, Efficient ResNets, and the four-stage model.
+- Original and published hashes record the file mappings. Dataset and checkpoint paths have been relocated for this repository.
+
+The [main reproduction guide](../docs/reproducing.md) covers the public-best model, the final selected robust model, and the later robust refinement.
+
+## Running an archived configuration
+
+Use the source variant listed in the inventory. For example, the 3 × 3 projection-shortcut experiment uses:
 
 ```powershell
 $env:PYTHONPATH = (Resolve-Path archive/source_variants/architecture_completion_v1/src).Path
@@ -12,10 +23,18 @@ python -m dlend.train --config archive/configs/architecture_completion_v1/shortc
 Remove-Item Env:PYTHONPATH
 ```
 
-For a warm-start entry, first reproduce its `initialization.checkpoint` dependency, then add `--init-checkpoint` with that path; keep the source `best.json`. For knowledge distillation, reproduce the teacher path recorded in the configuration. Using the entry's `original_project_run_relative` as the output path preserves these relative dependencies. Screens are intentionally shorter than final runs and cannot be reported as equal-budget comparisons to longer runs.
+For a continuation, first train the checkpoint listed under `initialization.checkpoint`, keep its accompanying metadata, and pass it through `--init-checkpoint`. Distillation configurations identify the teacher run in the same way. Using `original_project_run_relative` as the output directory preserves the relative dependencies between phases.
 
-The original SWA-source admission in the champion snapshot requires a machine-local signed registration that is not publicly bundled. The root README supplies a portable checked-admission route for the report's robust refinement model. Other archived configurations are provided with exact values and source mappings, but the public package has not re-executed every historical training command. No automated queue is launched by opening the archive or notebook.
+The robust continuation from SWA uses the portable `scripts/train_from_swa.py` route described in the main guide. The original champion source snapshot retains its machine-specific checkpoint-registration mechanism.
 
-`efficient_resnets_v1/src/dlend/vendor_project1_model.py` is the supplied author's architecture. Its original MIT notice is preserved in `source_variants/efficient_resnets_v1/LICENSE.vendor`: Copyright (c) 2017 liukuang. The corresponding paper is Aditya Thakur, Harish Chauhan and Nikunj Gupta, *Efficient ResNets: Residual Network Design*, arXiv:2306.12100. [Paper](https://arxiv.org/abs/2306.12100), [author repository](https://github.com/Nikunj-Gupta/Efficient_ResNets). No supplied pretrained checkpoint was loaded for these project experiments, and no author checkpoint is distributed here.
+Screening runs were deliberately short. Their results helped choose which configurations received full training. The report compares the longer runs and targeted follow-ups separately.
 
-SWA/best/final evaluations, TTA, post-training quantization and cached audits are artifacts or evaluations, not additional training tasks. Model selection on the same validation data and hardware/precision differences limit claims of improvement; the archive records completion, not proof of universal effectiveness or convergence.
+## Efficient ResNets source
+
+The supplied architecture is preserved in `source_variants/efficient_resnets_v1/src/dlend/vendor_project1_model.py`, with the original MIT notice in `LICENSE.vendor`.
+
+Aditya Thakur, Harish Chauhan, and Nikunj Gupta. *Efficient ResNets: Residual Network Design*. arXiv:2306.12100, 2023. [Paper](https://arxiv.org/abs/2306.12100) · [Author repository](https://github.com/Nikunj-Gupta/Efficient_ResNets)
+
+## Reading the records
+
+The experiment count includes training phases. SWA, final-checkpoint evaluations, flip inference, and quantization are recorded as artifacts or evaluations of those phases. Training data are obtained through the competition, and checkpoints are generated by following the dependencies above.
